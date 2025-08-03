@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/neal/dev/ned/lib/nativefiledialog/src/nfd_cocoa.m" "ned/CMakeFiles/nfd.dir/lib/nativefiledialog/src/nfd_cocoa.m.o" "gcc" "ned/CMakeFiles/nfd.dir/lib/nativefiledialog/src/nfd_cocoa.m.o.d"
-  "/Users/neal/dev/ned/lib/nativefiledialog/src/nfd_common.c" "ned/CMakeFiles/nfd.dir/lib/nativefiledialog/src/nfd_common.c.o" "gcc" "ned/CMakeFiles/nfd.dir/lib/nativefiledialog/src/nfd_common.c.o.d"
+  "/Users/neal/dev/ImGui_Ned_Embed/ned/lib/nativefiledialog/src/nfd_cocoa.m" "ned/CMakeFiles/nfd.dir/lib/nativefiledialog/src/nfd_cocoa.m.o" "gcc" "ned/CMakeFiles/nfd.dir/lib/nativefiledialog/src/nfd_cocoa.m.o.d"
+  "/Users/neal/dev/ImGui_Ned_Embed/ned/lib/nativefiledialog/src/nfd_common.c" "ned/CMakeFiles/nfd.dir/lib/nativefiledialog/src/nfd_common.c.o" "gcc" "ned/CMakeFiles/nfd.dir/lib/nativefiledialog/src/nfd_common.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

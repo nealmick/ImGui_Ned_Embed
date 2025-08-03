@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DGL_SILENCE_DEPRECATION -DIMGUI_USER_CONFIG=\"ned_imgui_config.h\" -DPLATFORM_MACOS -DSOURCE_DIR=\"/Users/neal/dev/ImGui_Ned_Embed\"
 
-CXX_INCLUDES = -I/Users/neal/dev/ned -I/Users/neal/dev/ned/lib/imgui -I/Users/neal/dev/ned/lib/imgui/backends -I/Users/neal/dev/ned/editor -I/Users/neal/dev/ned/files -I/Users/neal/dev/ImGui_Ned_Embed/build -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include
+CXX_INCLUDES = -I/Users/neal/dev/ImGui_Ned_Embed/ned -I/Users/neal/dev/ImGui_Ned_Embed/ned/lib/imgui -I/Users/neal/dev/ImGui_Ned_Embed/ned/lib/imgui/backends -I/Users/neal/dev/ImGui_Ned_Embed/ned/editor -I/Users/neal/dev/ImGui_Ned_Embed/ned/files -I/Users/neal/dev/ImGui_Ned_Embed/build -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include
 
 CXX_FLAGSarm64 = -std=gnu++17 -arch arm64 -Wno-deprecated-declarations
 

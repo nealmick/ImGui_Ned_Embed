@@ -1,9 +1,9 @@
 ned/CMakeFiles/util.dir/util/terminal.cpp.o: \
-  /Users/neal/dev/ned/util/terminal.cpp \
-  /Users/neal/dev/ned/util/terminal.h \
-  /Users/neal/dev/ned/lib/imgui/imgui.h \
-  /Users/neal/dev/ned/ned_imgui_config.h \
-  /Users/neal/dev/ned/lib/imgui/imconfig.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/util/terminal.cpp \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/util/terminal.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/imgui/imgui.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/ned_imgui_config.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/imgui/imconfig.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/float.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \
@@ -817,8 +817,8 @@ ned/CMakeFiles/util.dir/util/terminal.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/file_clock.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/forward_list \
-  /Users/neal/dev/ned/util/../util/settings.h \
-  /Users/neal/dev/ned/util/../util/../lib/json.hpp \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/util/../util/settings.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/util/../util/../lib/json.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/numeric \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/accumulate.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/adjacent_difference.h \
@@ -858,55 +858,56 @@ ned/CMakeFiles/util.dir/util/terminal.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/u8path.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/any \
-  /Users/neal/dev/ned/util/../util/close_popper.h \
-  /Users/neal/dev/ned/util/../util/settings_file_manager.h \
-  /Users/neal/dev/ned/files/files.h /opt/homebrew/include/GLFW/glfw3.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/util/../util/close_popper.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/util/../util/settings_file_manager.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/files/files.h \
+  /opt/homebrew/include/GLFW/glfw3.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gl.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gltypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Headers/OpenGLAvailability.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/os/availability.h \
-  /Users/neal/dev/ned/files/../editor/editor.h \
-  /Users/neal/dev/ned/files/../editor/editor_copy_paste.h \
-  /Users/neal/dev/ned/files/../editor/editor_scroll.h \
-  /Users/neal/dev/ned/files/../editor/editor_types.h \
-  /Users/neal/dev/ned/files/../editor/editor_cursor.h \
-  /Users/neal/dev/ned/files/../editor/editor_highlight.h \
-  /Users/neal/dev/ned/files/../editor/../lexers/cpp.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/files/../editor/editor.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/files/../editor/editor_copy_paste.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/files/../editor/editor_scroll.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/files/../editor/editor_types.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/files/../editor/editor_cursor.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/files/../editor/editor_highlight.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/files/../editor/../lexers/cpp.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/unordered_set \
-  /Users/neal/dev/ned/files/../editor/../lexers/../util/settings.h \
-  /Users/neal/dev/ned/files/../editor/../lexers/csharp.h \
-  /Users/neal/dev/ned/lib/json.hpp \
-  /Users/neal/dev/ned/files/../editor/../lexers/css.h \
-  /Users/neal/dev/ned/files/../editor/../lexers/html.h \
-  /Users/neal/dev/ned/files/../editor/../lexers/java.h \
-  /Users/neal/dev/ned/files/../editor/../lexers/jsx.h \
-  /Users/neal/dev/ned/files/../editor/../lexers/python.h \
-  /Users/neal/dev/ned/files/../editor/../lexers/tsx.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/files/../editor/../lexers/../util/settings.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/files/../editor/../lexers/csharp.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/json.hpp \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/files/../editor/../lexers/css.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/files/../editor/../lexers/html.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/files/../editor/../lexers/java.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/files/../editor/../lexers/jsx.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/files/../editor/../lexers/python.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/files/../editor/../lexers/tsx.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/future \
-  /Users/neal/dev/ned/files/../editor/editor_indentation.h \
-  /Users/neal/dev/ned/files/../editor/editor_keyboard.h \
-  /Users/neal/dev/ned/files/../editor/editor_line_numbers.h \
-  /Users/neal/dev/ned/files/../editor/editor_utils.h \
-  /Users/neal/dev/ned/files/../editor/editor_mouse.h \
-  /Users/neal/dev/ned/ai/ai_tab.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/files/../editor/editor_indentation.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/files/../editor/editor_keyboard.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/files/../editor/editor_line_numbers.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/files/../editor/editor_utils.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/files/../editor/editor_mouse.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/ai/ai_tab.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/condition_variable \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/stop_callback.h \
-  /Users/neal/dev/ned/files/../editor/editor_git.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/files/../editor/editor_git.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/set \
-  /Users/neal/dev/ned/files/../editor/editor_render.h \
-  /Users/neal/dev/ned/files/../lsp/lsp.h \
-  /Users/neal/dev/ned/editor/editor_types.h \
-  /Users/neal/dev/ned/files/../lsp/lsp_manager.h \
-  /Users/neal/dev/ned/files/../lsp/lsp_adapter_clangd.h \
-  /Users/neal/dev/ned/files/../lsp/lsp_adapter_go.h \
-  /Users/neal/dev/ned/files/../lsp/lsp_adapter_pyright.h \
-  /Users/neal/dev/ned/files/../lsp/lsp_adapter_typescript.h \
-  /Users/neal/dev/ned/files/file_content_search.h \
-  /Users/neal/dev/ned/files/file_tree.h \
-  /Users/neal/dev/ned/files/file_undo_redo.h \
-  /Users/neal/dev/ned/files/../lib/json.hpp \
-  /Users/neal/dev/ned/util/settings.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/files/../editor/editor_render.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/files/../lsp/lsp.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/editor/editor_types.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/files/../lsp/lsp_manager.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/files/../lsp/lsp_adapter_clangd.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/files/../lsp/lsp_adapter_go.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/files/../lsp/lsp_adapter_pyright.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/files/../lsp/lsp_adapter_typescript.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/files/file_content_search.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/files/file_tree.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/files/file_undo_redo.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/files/../lib/json.hpp \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/util/settings.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/fcntl.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/fcntl.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_o_sync.h \

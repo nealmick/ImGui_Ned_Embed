@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/neal/dev/ned/lib/tree-sitter-c/src/parser.c" "ned/CMakeFiles/tree-sitter-c-grammar.dir/lib/tree-sitter-c/src/parser.c.o" "gcc" "ned/CMakeFiles/tree-sitter-c-grammar.dir/lib/tree-sitter-c/src/parser.c.o.d"
+  "/Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter-c/src/parser.c" "ned/CMakeFiles/tree-sitter-c-grammar.dir/lib/tree-sitter-c/src/parser.c.o" "gcc" "ned/CMakeFiles/tree-sitter-c-grammar.dir/lib/tree-sitter-c/src/parser.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -1,6 +1,6 @@
 ned/CMakeFiles/util.dir/util/window_resize.cpp.o: \
-  /Users/neal/dev/ned/util/window_resize.cpp \
-  /Users/neal/dev/ned/util/window_resize.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/util/window_resize.cpp \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/util/window_resize.h \
   /opt/homebrew/include/GLFW/glfw3.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stddef.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
@@ -50,9 +50,9 @@ ned/CMakeFiles/util.dir/util/window_resize.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h \
-  /Users/neal/dev/ned/lib/imgui/imgui.h \
-  /Users/neal/dev/ned/ned_imgui_config.h \
-  /Users/neal/dev/ned/lib/imgui/imconfig.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/imgui/imgui.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/ned_imgui_config.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/imgui/imconfig.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/float.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/float.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/float.h \

@@ -1,8 +1,8 @@
 ned/CMakeFiles/tree-sitter-html-grammar.dir/lib/tree-sitter-html/src/scanner.c.o: \
-  /Users/neal/dev/ned/lib/tree-sitter-html/src/scanner.c \
-  /Users/neal/dev/ned/lib/tree-sitter-html/src/tag.h \
-  /Users/neal/dev/ned/lib/tree-sitter-html/src/tree_sitter/array.h \
-  /Users/neal/dev/ned/lib/tree-sitter-html/src/tree_sitter/./alloc.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter-html/src/scanner.c \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter-html/src/tag.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter-html/src/tree_sitter/array.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter-html/src/tree_sitter/./alloc.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdbool.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_stdio.h \
@@ -99,7 +99,7 @@ ned/CMakeFiles/tree-sitter-html-grammar.dir/lib/tree-sitter-html/src/scanner.c.o
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_strings.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/secure/_strings.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/secure/_string.h \
-  /Users/neal/dev/ned/lib/tree-sitter-html/src/tree_sitter/parser.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter-html/src/tree_sitter/parser.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_wctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_wctrans_t.h \

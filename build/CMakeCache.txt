@@ -271,7 +271,7 @@ ned_BINARY_DIR:STATIC=/Users/neal/dev/ImGui_Ned_Embed/build/ned
 ned_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-ned_SOURCE_DIR:STATIC=/Users/neal/dev/ned
+ned_SOURCE_DIR:STATIC=/Users/neal/dev/ImGui_Ned_Embed/ned
 
 //Dependencies for the target
 ned_embed_LIB_DEPENDS:STATIC=general;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework;general;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework;general;glfw;general;nfd;general;util;general;/opt/homebrew/Cellar/glew/2.2.0_1/lib/libGLEW.dylib;general;/opt/homebrew/lib/libfreetype.dylib;general;CURL::libcurl;general;tree-sitter-lib;general;tree-sitter-typescript-grammar;general;tree-sitter-tsx-grammar;general;tree-sitter-bash-grammar;general;tree-sitter-c-grammar;general;tree-sitter-cpp-grammar;general;tree-sitter-csharp-grammar;general;tree-sitter-css-grammar;general;tree-sitter-go-grammar;general;tree-sitter-hcl-grammar;general;tree-sitter-html-grammar;general;tree-sitter-java-grammar;general;tree-sitter-javascript-grammar;general;tree-sitter-json-grammar;general;tree-sitter-kotlin-grammar;general;tree-sitter-python-grammar;general;tree-sitter-ruby-grammar;general;tree-sitter-rust-grammar;general;tree-sitter-toml-grammar;

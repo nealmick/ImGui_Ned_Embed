@@ -1,5 +1,5 @@
 ned/CMakeFiles/tree-sitter-hcl-grammar.dir/lib/tree-sitter-hcl/src/scanner.c.o: \
-  /Users/neal/dev/ned/lib/tree-sitter-hcl/src/scanner.c \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter-hcl/src/scanner.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/cdefs.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_symbol_aliasing.h \
@@ -55,7 +55,7 @@ ned/CMakeFiles/tree-sitter-hcl-grammar.dir/lib/tree-sitter-hcl/src/scanner.c.o: 
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_strings.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/secure/_strings.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/secure/_string.h \
-  /Users/neal/dev/ned/lib/tree-sitter-hcl/src/tree_sitter/parser.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter-hcl/src/tree_sitter/parser.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdbool.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stdint.h \

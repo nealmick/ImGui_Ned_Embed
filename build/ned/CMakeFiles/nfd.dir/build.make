@@ -73,32 +73,32 @@ ned/CMakeFiles/nfd.dir/codegen:
 .PHONY : ned/CMakeFiles/nfd.dir/codegen
 
 ned/CMakeFiles/nfd.dir/lib/nativefiledialog/src/nfd_common.c.o: ned/CMakeFiles/nfd.dir/flags.make
-ned/CMakeFiles/nfd.dir/lib/nativefiledialog/src/nfd_common.c.o: /Users/neal/dev/ned/lib/nativefiledialog/src/nfd_common.c
+ned/CMakeFiles/nfd.dir/lib/nativefiledialog/src/nfd_common.c.o: /Users/neal/dev/ImGui_Ned_Embed/ned/lib/nativefiledialog/src/nfd_common.c
 ned/CMakeFiles/nfd.dir/lib/nativefiledialog/src/nfd_common.c.o: ned/CMakeFiles/nfd.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/neal/dev/ImGui_Ned_Embed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object ned/CMakeFiles/nfd.dir/lib/nativefiledialog/src/nfd_common.c.o"
-	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT ned/CMakeFiles/nfd.dir/lib/nativefiledialog/src/nfd_common.c.o -MF CMakeFiles/nfd.dir/lib/nativefiledialog/src/nfd_common.c.o.d -o CMakeFiles/nfd.dir/lib/nativefiledialog/src/nfd_common.c.o -c /Users/neal/dev/ned/lib/nativefiledialog/src/nfd_common.c
+	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT ned/CMakeFiles/nfd.dir/lib/nativefiledialog/src/nfd_common.c.o -MF CMakeFiles/nfd.dir/lib/nativefiledialog/src/nfd_common.c.o.d -o CMakeFiles/nfd.dir/lib/nativefiledialog/src/nfd_common.c.o -c /Users/neal/dev/ImGui_Ned_Embed/ned/lib/nativefiledialog/src/nfd_common.c
 
 ned/CMakeFiles/nfd.dir/lib/nativefiledialog/src/nfd_common.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/nfd.dir/lib/nativefiledialog/src/nfd_common.c.i"
-	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/neal/dev/ned/lib/nativefiledialog/src/nfd_common.c > CMakeFiles/nfd.dir/lib/nativefiledialog/src/nfd_common.c.i
+	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/neal/dev/ImGui_Ned_Embed/ned/lib/nativefiledialog/src/nfd_common.c > CMakeFiles/nfd.dir/lib/nativefiledialog/src/nfd_common.c.i
 
 ned/CMakeFiles/nfd.dir/lib/nativefiledialog/src/nfd_common.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/nfd.dir/lib/nativefiledialog/src/nfd_common.c.s"
-	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/neal/dev/ned/lib/nativefiledialog/src/nfd_common.c -o CMakeFiles/nfd.dir/lib/nativefiledialog/src/nfd_common.c.s
+	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/neal/dev/ImGui_Ned_Embed/ned/lib/nativefiledialog/src/nfd_common.c -o CMakeFiles/nfd.dir/lib/nativefiledialog/src/nfd_common.c.s
 
 ned/CMakeFiles/nfd.dir/lib/nativefiledialog/src/nfd_cocoa.m.o: ned/CMakeFiles/nfd.dir/flags.make
-ned/CMakeFiles/nfd.dir/lib/nativefiledialog/src/nfd_cocoa.m.o: /Users/neal/dev/ned/lib/nativefiledialog/src/nfd_cocoa.m
+ned/CMakeFiles/nfd.dir/lib/nativefiledialog/src/nfd_cocoa.m.o: /Users/neal/dev/ImGui_Ned_Embed/ned/lib/nativefiledialog/src/nfd_cocoa.m
 ned/CMakeFiles/nfd.dir/lib/nativefiledialog/src/nfd_cocoa.m.o: ned/CMakeFiles/nfd.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/neal/dev/ImGui_Ned_Embed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object ned/CMakeFiles/nfd.dir/lib/nativefiledialog/src/nfd_cocoa.m.o"
-	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT ned/CMakeFiles/nfd.dir/lib/nativefiledialog/src/nfd_cocoa.m.o -MF CMakeFiles/nfd.dir/lib/nativefiledialog/src/nfd_cocoa.m.o.d -o CMakeFiles/nfd.dir/lib/nativefiledialog/src/nfd_cocoa.m.o -c /Users/neal/dev/ned/lib/nativefiledialog/src/nfd_cocoa.m
+	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT ned/CMakeFiles/nfd.dir/lib/nativefiledialog/src/nfd_cocoa.m.o -MF CMakeFiles/nfd.dir/lib/nativefiledialog/src/nfd_cocoa.m.o.d -o CMakeFiles/nfd.dir/lib/nativefiledialog/src/nfd_cocoa.m.o -c /Users/neal/dev/ImGui_Ned_Embed/ned/lib/nativefiledialog/src/nfd_cocoa.m
 
 ned/CMakeFiles/nfd.dir/lib/nativefiledialog/src/nfd_cocoa.m.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/nfd.dir/lib/nativefiledialog/src/nfd_cocoa.m.i"
-	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/neal/dev/ned/lib/nativefiledialog/src/nfd_cocoa.m > CMakeFiles/nfd.dir/lib/nativefiledialog/src/nfd_cocoa.m.i
+	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/neal/dev/ImGui_Ned_Embed/ned/lib/nativefiledialog/src/nfd_cocoa.m > CMakeFiles/nfd.dir/lib/nativefiledialog/src/nfd_cocoa.m.i
 
 ned/CMakeFiles/nfd.dir/lib/nativefiledialog/src/nfd_cocoa.m.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/nfd.dir/lib/nativefiledialog/src/nfd_cocoa.m.s"
-	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/neal/dev/ned/lib/nativefiledialog/src/nfd_cocoa.m -o CMakeFiles/nfd.dir/lib/nativefiledialog/src/nfd_cocoa.m.s
+	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/neal/dev/ImGui_Ned_Embed/ned/lib/nativefiledialog/src/nfd_cocoa.m -o CMakeFiles/nfd.dir/lib/nativefiledialog/src/nfd_cocoa.m.s
 
 # Object files for target nfd
 nfd_OBJECTS = \
@@ -125,6 +125,6 @@ ned/CMakeFiles/nfd.dir/clean:
 .PHONY : ned/CMakeFiles/nfd.dir/clean
 
 ned/CMakeFiles/nfd.dir/depend:
-	cd /Users/neal/dev/ImGui_Ned_Embed/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/neal/dev/ImGui_Ned_Embed /Users/neal/dev/ned /Users/neal/dev/ImGui_Ned_Embed/build /Users/neal/dev/ImGui_Ned_Embed/build/ned /Users/neal/dev/ImGui_Ned_Embed/build/ned/CMakeFiles/nfd.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/neal/dev/ImGui_Ned_Embed/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/neal/dev/ImGui_Ned_Embed /Users/neal/dev/ImGui_Ned_Embed/ned /Users/neal/dev/ImGui_Ned_Embed/build /Users/neal/dev/ImGui_Ned_Embed/build/ned /Users/neal/dev/ImGui_Ned_Embed/build/ned/CMakeFiles/nfd.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : ned/CMakeFiles/nfd.dir/depend
 

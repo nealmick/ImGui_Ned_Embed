@@ -1,7 +1,7 @@
 ned/CMakeFiles/util.dir/util/settings_file_manager.cpp.o: \
-  /Users/neal/dev/ned/util/settings_file_manager.cpp \
-  /Users/neal/dev/ned/util/settings_file_manager.h \
-  /Users/neal/dev/ned/util/../lib/json.hpp \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/util/settings_file_manager.cpp \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/util/settings_file_manager.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/util/../lib/json.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/algorithm \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \
@@ -879,10 +879,10 @@ ned/CMakeFiles/util.dir/util/settings_file_manager.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/machine/param.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/param.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/_param.h \
-  /Users/neal/dev/ned/util/terminal.h \
-  /Users/neal/dev/ned/lib/imgui/imgui.h \
-  /Users/neal/dev/ned/ned_imgui_config.h \
-  /Users/neal/dev/ned/lib/imgui/imconfig.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/util/terminal.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/imgui/imgui.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/ned_imgui_config.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/imgui/imconfig.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/float.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/float.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/float.h \
@@ -898,7 +898,7 @@ ned/CMakeFiles/util.dir/util/settings_file_manager.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/thread.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/sstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/this_thread.h \
-  /Users/neal/dev/ned/util/../util/settings.h \
-  /Users/neal/dev/ned/util/../util/../lib/json.hpp \
-  /Users/neal/dev/ned/util/../util/close_popper.h \
-  /Users/neal/dev/ned/util/../util/settings_file_manager.h
+  /Users/neal/dev/ImGui_Ned_Embed/ned/util/../util/settings.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/util/../util/../lib/json.hpp \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/util/../util/close_popper.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/util/../util/settings_file_manager.h

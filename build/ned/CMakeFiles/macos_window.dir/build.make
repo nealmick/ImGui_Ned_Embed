@@ -73,18 +73,18 @@ ned/CMakeFiles/macos_window.dir/codegen:
 .PHONY : ned/CMakeFiles/macos_window.dir/codegen
 
 ned/CMakeFiles/macos_window.dir/macos_window.mm.o: ned/CMakeFiles/macos_window.dir/flags.make
-ned/CMakeFiles/macos_window.dir/macos_window.mm.o: /Users/neal/dev/ned/macos_window.mm
+ned/CMakeFiles/macos_window.dir/macos_window.mm.o: /Users/neal/dev/ImGui_Ned_Embed/ned/macos_window.mm
 ned/CMakeFiles/macos_window.dir/macos_window.mm.o: ned/CMakeFiles/macos_window.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/neal/dev/ImGui_Ned_Embed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ned/CMakeFiles/macos_window.dir/macos_window.mm.o"
-	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ned/CMakeFiles/macos_window.dir/macos_window.mm.o -MF CMakeFiles/macos_window.dir/macos_window.mm.o.d -o CMakeFiles/macos_window.dir/macos_window.mm.o -c /Users/neal/dev/ned/macos_window.mm
+	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ned/CMakeFiles/macos_window.dir/macos_window.mm.o -MF CMakeFiles/macos_window.dir/macos_window.mm.o.d -o CMakeFiles/macos_window.dir/macos_window.mm.o -c /Users/neal/dev/ImGui_Ned_Embed/ned/macos_window.mm
 
 ned/CMakeFiles/macos_window.dir/macos_window.mm.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/macos_window.dir/macos_window.mm.i"
-	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/neal/dev/ned/macos_window.mm > CMakeFiles/macos_window.dir/macos_window.mm.i
+	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/neal/dev/ImGui_Ned_Embed/ned/macos_window.mm > CMakeFiles/macos_window.dir/macos_window.mm.i
 
 ned/CMakeFiles/macos_window.dir/macos_window.mm.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/macos_window.dir/macos_window.mm.s"
-	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/neal/dev/ned/macos_window.mm -o CMakeFiles/macos_window.dir/macos_window.mm.s
+	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/neal/dev/ImGui_Ned_Embed/ned/macos_window.mm -o CMakeFiles/macos_window.dir/macos_window.mm.s
 
 macos_window: ned/CMakeFiles/macos_window.dir/macos_window.mm.o
 macos_window: ned/CMakeFiles/macos_window.dir/build.make
@@ -99,6 +99,6 @@ ned/CMakeFiles/macos_window.dir/clean:
 .PHONY : ned/CMakeFiles/macos_window.dir/clean
 
 ned/CMakeFiles/macos_window.dir/depend:
-	cd /Users/neal/dev/ImGui_Ned_Embed/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/neal/dev/ImGui_Ned_Embed /Users/neal/dev/ned /Users/neal/dev/ImGui_Ned_Embed/build /Users/neal/dev/ImGui_Ned_Embed/build/ned /Users/neal/dev/ImGui_Ned_Embed/build/ned/CMakeFiles/macos_window.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/neal/dev/ImGui_Ned_Embed/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/neal/dev/ImGui_Ned_Embed /Users/neal/dev/ImGui_Ned_Embed/ned /Users/neal/dev/ImGui_Ned_Embed/build /Users/neal/dev/ImGui_Ned_Embed/build/ned /Users/neal/dev/ImGui_Ned_Embed/build/ned/CMakeFiles/macos_window.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : ned/CMakeFiles/macos_window.dir/depend
 

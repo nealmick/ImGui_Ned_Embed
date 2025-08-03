@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DGL_SILENCE_DEPRECATION -DIMGUI_USER_CONFIG=\"ned_imgui_config.h\" -DPLATFORM_MACOS -DSOURCE_DIR=\"/Users/neal/dev/ImGui_Ned_Embed\"
 
-C_INCLUDES = -I/Users/neal/dev/ned/lib/tree-sitter-python/src -I/Users/neal/dev/ned/lib/tree-sitter/lib/include -I/Users/neal/dev/ned/lib/tree-sitter/lib/src
+C_INCLUDES = -I/Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter-python/src -I/Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter/lib/include -I/Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter/lib/src
 
 C_FLAGSarm64 = -std=gnu11 -arch arm64 -Wno-deprecated-declarations
 

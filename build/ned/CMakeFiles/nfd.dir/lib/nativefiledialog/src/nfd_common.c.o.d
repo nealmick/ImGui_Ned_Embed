@@ -1,5 +1,5 @@
 ned/CMakeFiles/nfd.dir/lib/nativefiledialog/src/nfd_common.c.o: \
-  /Users/neal/dev/ned/lib/nativefiledialog/src/nfd_common.c \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/nativefiledialog/src/nfd_common.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -86,8 +86,8 @@ ned/CMakeFiles/nfd.dir/lib/nativefiledialog/src/nfd_common.c.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/secure/_strings.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/secure/_common.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/secure/_string.h \
-  /Users/neal/dev/ned/lib/nativefiledialog/src/nfd_common.h \
-  /Users/neal/dev/ned/lib/nativefiledialog/src/include/nfd.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/nativefiledialog/src/nfd_common.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/nativefiledialog/src/include/nfd.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_header_macro.h \

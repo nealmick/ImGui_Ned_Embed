@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/neal/dev/ned/macos_window.mm" "ned/CMakeFiles/macos_window.dir/macos_window.mm.o" "gcc" "ned/CMakeFiles/macos_window.dir/macos_window.mm.o.d"
+  "/Users/neal/dev/ImGui_Ned_Embed/ned/macos_window.mm" "ned/CMakeFiles/macos_window.dir/macos_window.mm.o" "gcc" "ned/CMakeFiles/macos_window.dir/macos_window.mm.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -1,11 +1,11 @@
 ned/CMakeFiles/util.dir/util/close_popper.cpp.o: \
-  /Users/neal/dev/ned/util/close_popper.cpp \
-  /Users/neal/dev/ned/util/close_popper.h \
-  /Users/neal/dev/ned/util/../editor/editor_bookmarks.h \
-  /Users/neal/dev/ned/util/../editor/editor.h \
-  /Users/neal/dev/ned/lib/imgui/imgui.h \
-  /Users/neal/dev/ned/ned_imgui_config.h \
-  /Users/neal/dev/ned/lib/imgui/imconfig.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/util/close_popper.cpp \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/util/close_popper.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/util/../editor/editor_bookmarks.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/util/../editor/editor.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/imgui/imgui.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/ned_imgui_config.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/imgui/imconfig.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/float.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \
@@ -120,9 +120,9 @@ ned/CMakeFiles/util.dir/util/close_popper.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_mode_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_static_assert.h \
-  /Users/neal/dev/ned/util/../editor/editor_copy_paste.h \
-  /Users/neal/dev/ned/util/../editor/editor_scroll.h \
-  /Users/neal/dev/ned/util/../editor/editor_types.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/util/../editor/editor_copy_paste.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/util/../editor/editor_scroll.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/util/../editor/editor_types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/mutex \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/steady_clock.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/duration.h \
@@ -776,9 +776,9 @@ ned/CMakeFiles/util.dir/util/close_popper.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_nl_item.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__locale_dir/locale_base_api/bsd_locale_defaults.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdarg \
-  /Users/neal/dev/ned/util/../editor/editor_cursor.h \
-  /Users/neal/dev/ned/util/../editor/editor_highlight.h \
-  /Users/neal/dev/ned/util/../editor/../lexers/cpp.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/util/../editor/editor_cursor.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/util/../editor/editor_highlight.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/util/../editor/../lexers/cpp.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/istream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ostream/basic_ostream.h \
@@ -812,8 +812,8 @@ ned/CMakeFiles/util.dir/util/close_popper.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/print \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/unordered_set \
-  /Users/neal/dev/ned/util/../editor/../lexers/../util/settings.h \
-  /Users/neal/dev/ned/util/../editor/../lexers/../util/../lib/json.hpp \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/util/../editor/../lexers/../util/settings.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/util/../editor/../lexers/../util/../lib/json.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/numeric \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/accumulate.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/adjacent_difference.h \
@@ -856,16 +856,16 @@ ned/CMakeFiles/util.dir/util/close_popper.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/u8path.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/any \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono \
-  /Users/neal/dev/ned/util/../editor/../lexers/../util/close_popper.h \
-  /Users/neal/dev/ned/util/../editor/../lexers/../util/settings_file_manager.h \
-  /Users/neal/dev/ned/util/../editor/../lexers/csharp.h \
-  /Users/neal/dev/ned/lib/json.hpp \
-  /Users/neal/dev/ned/util/../editor/../lexers/css.h \
-  /Users/neal/dev/ned/util/../editor/../lexers/html.h \
-  /Users/neal/dev/ned/util/../editor/../lexers/java.h \
-  /Users/neal/dev/ned/util/../editor/../lexers/jsx.h \
-  /Users/neal/dev/ned/util/../editor/../lexers/python.h \
-  /Users/neal/dev/ned/util/../editor/../lexers/tsx.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/util/../editor/../lexers/../util/close_popper.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/util/../editor/../lexers/../util/settings_file_manager.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/util/../editor/../lexers/csharp.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/json.hpp \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/util/../editor/../lexers/css.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/util/../editor/../lexers/html.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/util/../editor/../lexers/java.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/util/../editor/../lexers/jsx.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/util/../editor/../lexers/python.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/util/../editor/../lexers/tsx.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/future \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/thread \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/formatter.h \
@@ -879,44 +879,45 @@ ned/CMakeFiles/util.dir/util/close_popper.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/thread.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/sstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/this_thread.h \
-  /Users/neal/dev/ned/util/../editor/editor_indentation.h \
-  /Users/neal/dev/ned/util/../editor/editor_keyboard.h \
-  /Users/neal/dev/ned/util/../editor/editor_line_numbers.h \
-  /Users/neal/dev/ned/util/../editor/editor_utils.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/util/../editor/editor_indentation.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/util/../editor/editor_keyboard.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/util/../editor/editor_line_numbers.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/util/../editor/editor_utils.h \
   /opt/homebrew/include/GLFW/glfw3.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gl.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gltypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Headers/OpenGLAvailability.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/os/availability.h \
-  /Users/neal/dev/ned/util/../editor/editor_mouse.h \
-  /Users/neal/dev/ned/ai/ai_tab.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/util/../editor/editor_mouse.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/ai/ai_tab.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/condition_variable \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/stop_callback.h \
-  /Users/neal/dev/ned/util/../editor/editor_git.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/util/../editor/editor_git.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/set \
-  /Users/neal/dev/ned/util/../editor/editor_render.h \
-  /Users/neal/dev/ned/util/../editor/../files/files.h \
-  /Users/neal/dev/ned/util/../editor/../files/../editor/editor.h \
-  /Users/neal/dev/ned/util/../editor/../files/../lsp/lsp.h \
-  /Users/neal/dev/ned/editor/editor_types.h \
-  /Users/neal/dev/ned/util/../editor/../files/../lsp/lsp_manager.h \
-  /Users/neal/dev/ned/util/../editor/../files/../lsp/lsp_adapter_clangd.h \
-  /Users/neal/dev/ned/util/../editor/../files/../lsp/lsp_adapter_go.h \
-  /Users/neal/dev/ned/util/../editor/../files/../lsp/lsp_adapter_pyright.h \
-  /Users/neal/dev/ned/util/../editor/../files/../lsp/lsp_adapter_typescript.h \
-  /Users/neal/dev/ned/util/../editor/../files/file_content_search.h \
-  /Users/neal/dev/ned/util/../editor/../files/../editor/editor_cursor.h \
-  /Users/neal/dev/ned/util/../editor/../files/file_tree.h \
-  /Users/neal/dev/ned/util/../editor/../files/file_undo_redo.h \
-  /Users/neal/dev/ned/util/../editor/../files/../lib/json.hpp \
-  /Users/neal/dev/ned/util/../editor/../util/keybinds.h \
-  /Users/neal/dev/ned/util/../editor/../util/../lib/json.hpp \
-  /Users/neal/dev/ned/util/../editor/../util/settings_file_manager.h \
-  /Users/neal/dev/ned/util/../editor/../util/terminal.h \
-  /Users/neal/dev/ned/util/../editor/../util/../util/settings.h \
-  /Users/neal/dev/ned/util/../editor/editor_line_jump.h \
-  /Users/neal/dev/ned/lib/imgui/../imgui/imgui.h \
-  /Users/neal/dev/ned/util/../editor/../util/close_popper.h \
-  /Users/neal/dev/ned/util/../files/file_finder.h \
-  /Users/neal/dev/ned/util/../files/files.h \
-  /Users/neal/dev/ned/util/settings.h
+  /Users/neal/dev/ImGui_Ned_Embed/ned/util/../editor/editor_render.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/util/../editor/../files/files.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/util/../editor/../files/../editor/editor.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/util/../editor/../files/../lsp/lsp.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/editor/editor_types.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/util/../editor/../files/../lsp/lsp_manager.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/util/../editor/../files/../lsp/lsp_adapter_clangd.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/util/../editor/../files/../lsp/lsp_adapter_go.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/util/../editor/../files/../lsp/lsp_adapter_pyright.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/util/../editor/../files/../lsp/lsp_adapter_typescript.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/util/../editor/../files/file_content_search.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/util/../editor/../files/../editor/editor_cursor.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/util/../editor/../files/file_tree.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/util/../editor/../files/file_undo_redo.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/util/../editor/../files/../lib/json.hpp \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/util/../editor/../util/keybinds.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/util/../editor/../util/../lib/json.hpp \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/util/../editor/../util/settings_file_manager.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/util/../editor/../util/terminal.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/util/../editor/../util/../util/settings.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/util/../editor/editor_line_jump.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/../imgui/imgui.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/../imgui/imconfig.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/util/../editor/../util/close_popper.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/util/../files/file_finder.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/util/../files/files.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/util/settings.h

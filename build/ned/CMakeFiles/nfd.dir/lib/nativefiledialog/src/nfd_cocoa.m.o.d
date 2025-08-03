@@ -1,5 +1,5 @@
 ned/CMakeFiles/nfd.dir/lib/nativefiledialog/src/nfd_cocoa.m.o: \
-  /Users/neal/dev/ned/lib/nativefiledialog/src/nfd_cocoa.m \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/nativefiledialog/src/nfd_cocoa.m \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h \
@@ -1253,5 +1253,5 @@ ned/CMakeFiles/nfd.dir/lib/nativefiledialog/src/nfd_cocoa.m.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSWritingToolsCoordinatorAnimationParameters.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSWritingToolsCoordinatorContext.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSWritingToolsCoordinator.h \
-  /Users/neal/dev/ned/lib/nativefiledialog/src/include/nfd.h \
-  /Users/neal/dev/ned/lib/nativefiledialog/src/nfd_common.h
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/nativefiledialog/src/include/nfd.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/nativefiledialog/src/nfd_common.h

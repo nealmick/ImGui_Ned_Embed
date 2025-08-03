@@ -73,32 +73,32 @@ ned/CMakeFiles/tree-sitter-hcl-grammar.dir/codegen:
 .PHONY : ned/CMakeFiles/tree-sitter-hcl-grammar.dir/codegen
 
 ned/CMakeFiles/tree-sitter-hcl-grammar.dir/lib/tree-sitter-hcl/src/parser.c.o: ned/CMakeFiles/tree-sitter-hcl-grammar.dir/flags.make
-ned/CMakeFiles/tree-sitter-hcl-grammar.dir/lib/tree-sitter-hcl/src/parser.c.o: /Users/neal/dev/ned/lib/tree-sitter-hcl/src/parser.c
+ned/CMakeFiles/tree-sitter-hcl-grammar.dir/lib/tree-sitter-hcl/src/parser.c.o: /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter-hcl/src/parser.c
 ned/CMakeFiles/tree-sitter-hcl-grammar.dir/lib/tree-sitter-hcl/src/parser.c.o: ned/CMakeFiles/tree-sitter-hcl-grammar.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/neal/dev/ImGui_Ned_Embed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object ned/CMakeFiles/tree-sitter-hcl-grammar.dir/lib/tree-sitter-hcl/src/parser.c.o"
-	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT ned/CMakeFiles/tree-sitter-hcl-grammar.dir/lib/tree-sitter-hcl/src/parser.c.o -MF CMakeFiles/tree-sitter-hcl-grammar.dir/lib/tree-sitter-hcl/src/parser.c.o.d -o CMakeFiles/tree-sitter-hcl-grammar.dir/lib/tree-sitter-hcl/src/parser.c.o -c /Users/neal/dev/ned/lib/tree-sitter-hcl/src/parser.c
+	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT ned/CMakeFiles/tree-sitter-hcl-grammar.dir/lib/tree-sitter-hcl/src/parser.c.o -MF CMakeFiles/tree-sitter-hcl-grammar.dir/lib/tree-sitter-hcl/src/parser.c.o.d -o CMakeFiles/tree-sitter-hcl-grammar.dir/lib/tree-sitter-hcl/src/parser.c.o -c /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter-hcl/src/parser.c
 
 ned/CMakeFiles/tree-sitter-hcl-grammar.dir/lib/tree-sitter-hcl/src/parser.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/tree-sitter-hcl-grammar.dir/lib/tree-sitter-hcl/src/parser.c.i"
-	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/neal/dev/ned/lib/tree-sitter-hcl/src/parser.c > CMakeFiles/tree-sitter-hcl-grammar.dir/lib/tree-sitter-hcl/src/parser.c.i
+	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter-hcl/src/parser.c > CMakeFiles/tree-sitter-hcl-grammar.dir/lib/tree-sitter-hcl/src/parser.c.i
 
 ned/CMakeFiles/tree-sitter-hcl-grammar.dir/lib/tree-sitter-hcl/src/parser.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/tree-sitter-hcl-grammar.dir/lib/tree-sitter-hcl/src/parser.c.s"
-	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/neal/dev/ned/lib/tree-sitter-hcl/src/parser.c -o CMakeFiles/tree-sitter-hcl-grammar.dir/lib/tree-sitter-hcl/src/parser.c.s
+	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter-hcl/src/parser.c -o CMakeFiles/tree-sitter-hcl-grammar.dir/lib/tree-sitter-hcl/src/parser.c.s
 
 ned/CMakeFiles/tree-sitter-hcl-grammar.dir/lib/tree-sitter-hcl/src/scanner.c.o: ned/CMakeFiles/tree-sitter-hcl-grammar.dir/flags.make
-ned/CMakeFiles/tree-sitter-hcl-grammar.dir/lib/tree-sitter-hcl/src/scanner.c.o: /Users/neal/dev/ned/lib/tree-sitter-hcl/src/scanner.c
+ned/CMakeFiles/tree-sitter-hcl-grammar.dir/lib/tree-sitter-hcl/src/scanner.c.o: /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter-hcl/src/scanner.c
 ned/CMakeFiles/tree-sitter-hcl-grammar.dir/lib/tree-sitter-hcl/src/scanner.c.o: ned/CMakeFiles/tree-sitter-hcl-grammar.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/neal/dev/ImGui_Ned_Embed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object ned/CMakeFiles/tree-sitter-hcl-grammar.dir/lib/tree-sitter-hcl/src/scanner.c.o"
-	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT ned/CMakeFiles/tree-sitter-hcl-grammar.dir/lib/tree-sitter-hcl/src/scanner.c.o -MF CMakeFiles/tree-sitter-hcl-grammar.dir/lib/tree-sitter-hcl/src/scanner.c.o.d -o CMakeFiles/tree-sitter-hcl-grammar.dir/lib/tree-sitter-hcl/src/scanner.c.o -c /Users/neal/dev/ned/lib/tree-sitter-hcl/src/scanner.c
+	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT ned/CMakeFiles/tree-sitter-hcl-grammar.dir/lib/tree-sitter-hcl/src/scanner.c.o -MF CMakeFiles/tree-sitter-hcl-grammar.dir/lib/tree-sitter-hcl/src/scanner.c.o.d -o CMakeFiles/tree-sitter-hcl-grammar.dir/lib/tree-sitter-hcl/src/scanner.c.o -c /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter-hcl/src/scanner.c
 
 ned/CMakeFiles/tree-sitter-hcl-grammar.dir/lib/tree-sitter-hcl/src/scanner.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/tree-sitter-hcl-grammar.dir/lib/tree-sitter-hcl/src/scanner.c.i"
-	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/neal/dev/ned/lib/tree-sitter-hcl/src/scanner.c > CMakeFiles/tree-sitter-hcl-grammar.dir/lib/tree-sitter-hcl/src/scanner.c.i
+	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter-hcl/src/scanner.c > CMakeFiles/tree-sitter-hcl-grammar.dir/lib/tree-sitter-hcl/src/scanner.c.i
 
 ned/CMakeFiles/tree-sitter-hcl-grammar.dir/lib/tree-sitter-hcl/src/scanner.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/tree-sitter-hcl-grammar.dir/lib/tree-sitter-hcl/src/scanner.c.s"
-	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/neal/dev/ned/lib/tree-sitter-hcl/src/scanner.c -o CMakeFiles/tree-sitter-hcl-grammar.dir/lib/tree-sitter-hcl/src/scanner.c.s
+	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter-hcl/src/scanner.c -o CMakeFiles/tree-sitter-hcl-grammar.dir/lib/tree-sitter-hcl/src/scanner.c.s
 
 # Object files for target tree-sitter-hcl-grammar
 tree__sitter__hcl__grammar_OBJECTS = \
@@ -125,6 +125,6 @@ ned/CMakeFiles/tree-sitter-hcl-grammar.dir/clean:
 .PHONY : ned/CMakeFiles/tree-sitter-hcl-grammar.dir/clean
 
 ned/CMakeFiles/tree-sitter-hcl-grammar.dir/depend:
-	cd /Users/neal/dev/ImGui_Ned_Embed/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/neal/dev/ImGui_Ned_Embed /Users/neal/dev/ned /Users/neal/dev/ImGui_Ned_Embed/build /Users/neal/dev/ImGui_Ned_Embed/build/ned /Users/neal/dev/ImGui_Ned_Embed/build/ned/CMakeFiles/tree-sitter-hcl-grammar.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/neal/dev/ImGui_Ned_Embed/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/neal/dev/ImGui_Ned_Embed /Users/neal/dev/ImGui_Ned_Embed/ned /Users/neal/dev/ImGui_Ned_Embed/build /Users/neal/dev/ImGui_Ned_Embed/build/ned /Users/neal/dev/ImGui_Ned_Embed/build/ned/CMakeFiles/tree-sitter-hcl-grammar.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : ned/CMakeFiles/tree-sitter-hcl-grammar.dir/depend
 

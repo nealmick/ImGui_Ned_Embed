@@ -73,46 +73,46 @@ ned/CMakeFiles/tree-sitter-lib.dir/codegen:
 .PHONY : ned/CMakeFiles/tree-sitter-lib.dir/codegen
 
 ned/CMakeFiles/tree-sitter-lib.dir/lib/tree-sitter/lib/src/lib.c.o: ned/CMakeFiles/tree-sitter-lib.dir/flags.make
-ned/CMakeFiles/tree-sitter-lib.dir/lib/tree-sitter/lib/src/lib.c.o: /Users/neal/dev/ned/lib/tree-sitter/lib/src/lib.c
+ned/CMakeFiles/tree-sitter-lib.dir/lib/tree-sitter/lib/src/lib.c.o: /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter/lib/src/lib.c
 ned/CMakeFiles/tree-sitter-lib.dir/lib/tree-sitter/lib/src/lib.c.o: ned/CMakeFiles/tree-sitter-lib.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/neal/dev/ImGui_Ned_Embed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object ned/CMakeFiles/tree-sitter-lib.dir/lib/tree-sitter/lib/src/lib.c.o"
-	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT ned/CMakeFiles/tree-sitter-lib.dir/lib/tree-sitter/lib/src/lib.c.o -MF CMakeFiles/tree-sitter-lib.dir/lib/tree-sitter/lib/src/lib.c.o.d -o CMakeFiles/tree-sitter-lib.dir/lib/tree-sitter/lib/src/lib.c.o -c /Users/neal/dev/ned/lib/tree-sitter/lib/src/lib.c
+	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT ned/CMakeFiles/tree-sitter-lib.dir/lib/tree-sitter/lib/src/lib.c.o -MF CMakeFiles/tree-sitter-lib.dir/lib/tree-sitter/lib/src/lib.c.o.d -o CMakeFiles/tree-sitter-lib.dir/lib/tree-sitter/lib/src/lib.c.o -c /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter/lib/src/lib.c
 
 ned/CMakeFiles/tree-sitter-lib.dir/lib/tree-sitter/lib/src/lib.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/tree-sitter-lib.dir/lib/tree-sitter/lib/src/lib.c.i"
-	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/neal/dev/ned/lib/tree-sitter/lib/src/lib.c > CMakeFiles/tree-sitter-lib.dir/lib/tree-sitter/lib/src/lib.c.i
+	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter/lib/src/lib.c > CMakeFiles/tree-sitter-lib.dir/lib/tree-sitter/lib/src/lib.c.i
 
 ned/CMakeFiles/tree-sitter-lib.dir/lib/tree-sitter/lib/src/lib.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/tree-sitter-lib.dir/lib/tree-sitter/lib/src/lib.c.s"
-	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/neal/dev/ned/lib/tree-sitter/lib/src/lib.c -o CMakeFiles/tree-sitter-lib.dir/lib/tree-sitter/lib/src/lib.c.s
+	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter/lib/src/lib.c -o CMakeFiles/tree-sitter-lib.dir/lib/tree-sitter/lib/src/lib.c.s
 
 ned/CMakeFiles/tree-sitter-lib.dir/lib/tree-sitter/lib/src/parser.c.o: ned/CMakeFiles/tree-sitter-lib.dir/flags.make
-ned/CMakeFiles/tree-sitter-lib.dir/lib/tree-sitter/lib/src/parser.c.o: /Users/neal/dev/ned/lib/tree-sitter/lib/src/parser.c
+ned/CMakeFiles/tree-sitter-lib.dir/lib/tree-sitter/lib/src/parser.c.o: /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter/lib/src/parser.c
 ned/CMakeFiles/tree-sitter-lib.dir/lib/tree-sitter/lib/src/parser.c.o: ned/CMakeFiles/tree-sitter-lib.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/neal/dev/ImGui_Ned_Embed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object ned/CMakeFiles/tree-sitter-lib.dir/lib/tree-sitter/lib/src/parser.c.o"
-	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT ned/CMakeFiles/tree-sitter-lib.dir/lib/tree-sitter/lib/src/parser.c.o -MF CMakeFiles/tree-sitter-lib.dir/lib/tree-sitter/lib/src/parser.c.o.d -o CMakeFiles/tree-sitter-lib.dir/lib/tree-sitter/lib/src/parser.c.o -c /Users/neal/dev/ned/lib/tree-sitter/lib/src/parser.c
+	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT ned/CMakeFiles/tree-sitter-lib.dir/lib/tree-sitter/lib/src/parser.c.o -MF CMakeFiles/tree-sitter-lib.dir/lib/tree-sitter/lib/src/parser.c.o.d -o CMakeFiles/tree-sitter-lib.dir/lib/tree-sitter/lib/src/parser.c.o -c /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter/lib/src/parser.c
 
 ned/CMakeFiles/tree-sitter-lib.dir/lib/tree-sitter/lib/src/parser.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/tree-sitter-lib.dir/lib/tree-sitter/lib/src/parser.c.i"
-	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/neal/dev/ned/lib/tree-sitter/lib/src/parser.c > CMakeFiles/tree-sitter-lib.dir/lib/tree-sitter/lib/src/parser.c.i
+	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter/lib/src/parser.c > CMakeFiles/tree-sitter-lib.dir/lib/tree-sitter/lib/src/parser.c.i
 
 ned/CMakeFiles/tree-sitter-lib.dir/lib/tree-sitter/lib/src/parser.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/tree-sitter-lib.dir/lib/tree-sitter/lib/src/parser.c.s"
-	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/neal/dev/ned/lib/tree-sitter/lib/src/parser.c -o CMakeFiles/tree-sitter-lib.dir/lib/tree-sitter/lib/src/parser.c.s
+	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter/lib/src/parser.c -o CMakeFiles/tree-sitter-lib.dir/lib/tree-sitter/lib/src/parser.c.s
 
 ned/CMakeFiles/tree-sitter-lib.dir/lib/tree-sitter/lib/src/query.c.o: ned/CMakeFiles/tree-sitter-lib.dir/flags.make
-ned/CMakeFiles/tree-sitter-lib.dir/lib/tree-sitter/lib/src/query.c.o: /Users/neal/dev/ned/lib/tree-sitter/lib/src/query.c
+ned/CMakeFiles/tree-sitter-lib.dir/lib/tree-sitter/lib/src/query.c.o: /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter/lib/src/query.c
 ned/CMakeFiles/tree-sitter-lib.dir/lib/tree-sitter/lib/src/query.c.o: ned/CMakeFiles/tree-sitter-lib.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/neal/dev/ImGui_Ned_Embed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object ned/CMakeFiles/tree-sitter-lib.dir/lib/tree-sitter/lib/src/query.c.o"
-	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT ned/CMakeFiles/tree-sitter-lib.dir/lib/tree-sitter/lib/src/query.c.o -MF CMakeFiles/tree-sitter-lib.dir/lib/tree-sitter/lib/src/query.c.o.d -o CMakeFiles/tree-sitter-lib.dir/lib/tree-sitter/lib/src/query.c.o -c /Users/neal/dev/ned/lib/tree-sitter/lib/src/query.c
+	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT ned/CMakeFiles/tree-sitter-lib.dir/lib/tree-sitter/lib/src/query.c.o -MF CMakeFiles/tree-sitter-lib.dir/lib/tree-sitter/lib/src/query.c.o.d -o CMakeFiles/tree-sitter-lib.dir/lib/tree-sitter/lib/src/query.c.o -c /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter/lib/src/query.c
 
 ned/CMakeFiles/tree-sitter-lib.dir/lib/tree-sitter/lib/src/query.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/tree-sitter-lib.dir/lib/tree-sitter/lib/src/query.c.i"
-	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/neal/dev/ned/lib/tree-sitter/lib/src/query.c > CMakeFiles/tree-sitter-lib.dir/lib/tree-sitter/lib/src/query.c.i
+	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter/lib/src/query.c > CMakeFiles/tree-sitter-lib.dir/lib/tree-sitter/lib/src/query.c.i
 
 ned/CMakeFiles/tree-sitter-lib.dir/lib/tree-sitter/lib/src/query.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/tree-sitter-lib.dir/lib/tree-sitter/lib/src/query.c.s"
-	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/neal/dev/ned/lib/tree-sitter/lib/src/query.c -o CMakeFiles/tree-sitter-lib.dir/lib/tree-sitter/lib/src/query.c.s
+	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter/lib/src/query.c -o CMakeFiles/tree-sitter-lib.dir/lib/tree-sitter/lib/src/query.c.s
 
 # Object files for target tree-sitter-lib
 tree__sitter__lib_OBJECTS = \
@@ -141,6 +141,6 @@ ned/CMakeFiles/tree-sitter-lib.dir/clean:
 .PHONY : ned/CMakeFiles/tree-sitter-lib.dir/clean
 
 ned/CMakeFiles/tree-sitter-lib.dir/depend:
-	cd /Users/neal/dev/ImGui_Ned_Embed/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/neal/dev/ImGui_Ned_Embed /Users/neal/dev/ned /Users/neal/dev/ImGui_Ned_Embed/build /Users/neal/dev/ImGui_Ned_Embed/build/ned /Users/neal/dev/ImGui_Ned_Embed/build/ned/CMakeFiles/tree-sitter-lib.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/neal/dev/ImGui_Ned_Embed/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/neal/dev/ImGui_Ned_Embed /Users/neal/dev/ImGui_Ned_Embed/ned /Users/neal/dev/ImGui_Ned_Embed/build /Users/neal/dev/ImGui_Ned_Embed/build/ned /Users/neal/dev/ImGui_Ned_Embed/build/ned/CMakeFiles/tree-sitter-lib.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : ned/CMakeFiles/tree-sitter-lib.dir/depend
 

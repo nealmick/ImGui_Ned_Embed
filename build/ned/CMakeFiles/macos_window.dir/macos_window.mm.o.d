@@ -1,5 +1,5 @@
 ned/CMakeFiles/macos_window.dir/macos_window.mm.o: \
-  /Users/neal/dev/ned/macos_window.mm \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/macos_window.mm \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h \
@@ -1443,7 +1443,7 @@ ned/CMakeFiles/macos_window.dir/macos_window.mm.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreData.framework/Headers/NSCoreDataCoreSpotlightDelegate.h \
   /opt/homebrew/include/GLFW/glfw3.h \
   /opt/homebrew/include/GLFW/glfw3native.h \
-  /Users/neal/dev/ned/macos_window.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/macos_window.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/CoreImage.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.h \

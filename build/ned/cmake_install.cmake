@@ -1,4 +1,4 @@
-# Install script for directory: /Users/neal/dev/ned
+# Install script for directory: /Users/neal/dev/ImGui_Ned_Embed/ned
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -1,6 +1,6 @@
 ned/CMakeFiles/tree-sitter-java-grammar.dir/lib/tree-sitter-java/src/parser.c.o: \
-  /Users/neal/dev/ned/lib/tree-sitter-java/src/parser.c \
-  /Users/neal/dev/ned/lib/tree-sitter-java/src/tree_sitter/parser.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter-java/src/parser.c \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter-java/src/tree_sitter/parser.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdbool.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stdint.h \

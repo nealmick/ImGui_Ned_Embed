@@ -1,6 +1,6 @@
 ned/CMakeFiles/tree-sitter-lib.dir/lib/tree-sitter/lib/src/query.c.o: \
-  /Users/neal/dev/ned/lib/tree-sitter/lib/src/query.c \
-  /Users/neal/dev/ned/lib/tree-sitter/lib/include/tree_sitter/api.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter/lib/src/query.c \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter/lib/include/tree_sitter/api.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
@@ -76,7 +76,7 @@ ned/CMakeFiles/tree-sitter-lib.dir/lib/tree-sitter/lib/src/query.c.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_dev_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_mode_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdbool.h \
-  /Users/neal/dev/ned/lib/tree-sitter/lib/src/./alloc.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter/lib/src/./alloc.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_va_list.h \
@@ -88,9 +88,9 @@ ned/CMakeFiles/tree-sitter-lib.dir/lib/tree-sitter/lib/src/query.c.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_ssize_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/secure/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/secure/_common.h \
-  /Users/neal/dev/ned/lib/tree-sitter/lib/src/./array.h \
-  /Users/neal/dev/ned/lib/tree-sitter/lib/src/././alloc.h \
-  /Users/neal/dev/ned/lib/tree-sitter/lib/src/././ts_assert.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter/lib/src/./array.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter/lib/src/././alloc.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter/lib/src/././ts_assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_static_assert.h \
@@ -101,33 +101,33 @@ ned/CMakeFiles/tree-sitter-lib.dir/lib/tree-sitter/lib/src/query.c.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_strings.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/secure/_strings.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/secure/_string.h \
-  /Users/neal/dev/ned/lib/tree-sitter/lib/src/./clock.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter/lib/src/./clock.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/time.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_time.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_clock_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_time_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_timespec.h \
-  /Users/neal/dev/ned/lib/tree-sitter/lib/src/./language.h \
-  /Users/neal/dev/ned/lib/tree-sitter/lib/src/././subtree.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter/lib/src/./language.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter/lib/src/././subtree.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/machine/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/_limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/syslimits.h \
-  /Users/neal/dev/ned/lib/tree-sitter/lib/src/./././length.h \
-  /Users/neal/dev/ned/lib/tree-sitter/lib/src/././././point.h \
-  /Users/neal/dev/ned/lib/tree-sitter/lib/src/./././array.h \
-  /Users/neal/dev/ned/lib/tree-sitter/lib/src/./././error_costs.h \
-  /Users/neal/dev/ned/lib/tree-sitter/lib/src/./././host.h \
-  /Users/neal/dev/ned/lib/tree-sitter/lib/src/./././parser.h \
-  /Users/neal/dev/ned/lib/tree-sitter/lib/src/././parser.h \
-  /Users/neal/dev/ned/lib/tree-sitter/lib/src/./point.h \
-  /Users/neal/dev/ned/lib/tree-sitter/lib/src/./tree_cursor.h \
-  /Users/neal/dev/ned/lib/tree-sitter/lib/src/./unicode.h \
-  /Users/neal/dev/ned/lib/tree-sitter/lib/src/./unicode/utf8.h \
-  /Users/neal/dev/ned/lib/tree-sitter/lib/src/unicode/umachine.h \
-  /Users/neal/dev/ned/lib/tree-sitter/lib/src/unicode/ptypes.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter/lib/src/./././length.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter/lib/src/././././point.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter/lib/src/./././array.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter/lib/src/./././error_costs.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter/lib/src/./././host.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter/lib/src/./././parser.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter/lib/src/././parser.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter/lib/src/./point.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter/lib/src/./tree_cursor.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter/lib/src/./unicode.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter/lib/src/./unicode/utf8.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter/lib/src/unicode/umachine.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter/lib/src/unicode/ptypes.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_header_macro.h \
@@ -138,10 +138,10 @@ ned/CMakeFiles/tree-sitter-lib.dir/lib/tree-sitter/lib/src/query.c.o: \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_null.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_max_align_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_offsetof.h \
-  /Users/neal/dev/ned/lib/tree-sitter/lib/src/unicode/urename.h \
-  /Users/neal/dev/ned/lib/tree-sitter/lib/src/unicode/utf.h \
-  /Users/neal/dev/ned/lib/tree-sitter/lib/src/./unicode/utf16.h \
-  /Users/neal/dev/ned/lib/tree-sitter/lib/src/./portable/endian.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter/lib/src/unicode/urename.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter/lib/src/unicode/utf.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter/lib/src/./unicode/utf16.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter/lib/src/./portable/endian.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/arm/OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_os_inline.h \

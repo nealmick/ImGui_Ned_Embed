@@ -73,200 +73,200 @@ ned/CMakeFiles/util.dir/codegen:
 .PHONY : ned/CMakeFiles/util.dir/codegen
 
 ned/CMakeFiles/util.dir/util/settings.cpp.o: ned/CMakeFiles/util.dir/flags.make
-ned/CMakeFiles/util.dir/util/settings.cpp.o: /Users/neal/dev/ned/util/settings.cpp
+ned/CMakeFiles/util.dir/util/settings.cpp.o: /Users/neal/dev/ImGui_Ned_Embed/ned/util/settings.cpp
 ned/CMakeFiles/util.dir/util/settings.cpp.o: ned/CMakeFiles/util.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/neal/dev/ImGui_Ned_Embed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ned/CMakeFiles/util.dir/util/settings.cpp.o"
-	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ned/CMakeFiles/util.dir/util/settings.cpp.o -MF CMakeFiles/util.dir/util/settings.cpp.o.d -o CMakeFiles/util.dir/util/settings.cpp.o -c /Users/neal/dev/ned/util/settings.cpp
+	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ned/CMakeFiles/util.dir/util/settings.cpp.o -MF CMakeFiles/util.dir/util/settings.cpp.o.d -o CMakeFiles/util.dir/util/settings.cpp.o -c /Users/neal/dev/ImGui_Ned_Embed/ned/util/settings.cpp
 
 ned/CMakeFiles/util.dir/util/settings.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/util.dir/util/settings.cpp.i"
-	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/neal/dev/ned/util/settings.cpp > CMakeFiles/util.dir/util/settings.cpp.i
+	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/neal/dev/ImGui_Ned_Embed/ned/util/settings.cpp > CMakeFiles/util.dir/util/settings.cpp.i
 
 ned/CMakeFiles/util.dir/util/settings.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/util.dir/util/settings.cpp.s"
-	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/neal/dev/ned/util/settings.cpp -o CMakeFiles/util.dir/util/settings.cpp.s
+	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/neal/dev/ImGui_Ned_Embed/ned/util/settings.cpp -o CMakeFiles/util.dir/util/settings.cpp.s
 
 ned/CMakeFiles/util.dir/util/settings_file_manager.cpp.o: ned/CMakeFiles/util.dir/flags.make
-ned/CMakeFiles/util.dir/util/settings_file_manager.cpp.o: /Users/neal/dev/ned/util/settings_file_manager.cpp
+ned/CMakeFiles/util.dir/util/settings_file_manager.cpp.o: /Users/neal/dev/ImGui_Ned_Embed/ned/util/settings_file_manager.cpp
 ned/CMakeFiles/util.dir/util/settings_file_manager.cpp.o: ned/CMakeFiles/util.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/neal/dev/ImGui_Ned_Embed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object ned/CMakeFiles/util.dir/util/settings_file_manager.cpp.o"
-	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ned/CMakeFiles/util.dir/util/settings_file_manager.cpp.o -MF CMakeFiles/util.dir/util/settings_file_manager.cpp.o.d -o CMakeFiles/util.dir/util/settings_file_manager.cpp.o -c /Users/neal/dev/ned/util/settings_file_manager.cpp
+	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ned/CMakeFiles/util.dir/util/settings_file_manager.cpp.o -MF CMakeFiles/util.dir/util/settings_file_manager.cpp.o.d -o CMakeFiles/util.dir/util/settings_file_manager.cpp.o -c /Users/neal/dev/ImGui_Ned_Embed/ned/util/settings_file_manager.cpp
 
 ned/CMakeFiles/util.dir/util/settings_file_manager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/util.dir/util/settings_file_manager.cpp.i"
-	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/neal/dev/ned/util/settings_file_manager.cpp > CMakeFiles/util.dir/util/settings_file_manager.cpp.i
+	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/neal/dev/ImGui_Ned_Embed/ned/util/settings_file_manager.cpp > CMakeFiles/util.dir/util/settings_file_manager.cpp.i
 
 ned/CMakeFiles/util.dir/util/settings_file_manager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/util.dir/util/settings_file_manager.cpp.s"
-	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/neal/dev/ned/util/settings_file_manager.cpp -o CMakeFiles/util.dir/util/settings_file_manager.cpp.s
+	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/neal/dev/ImGui_Ned_Embed/ned/util/settings_file_manager.cpp -o CMakeFiles/util.dir/util/settings_file_manager.cpp.s
 
 ned/CMakeFiles/util.dir/util/keybinds.cpp.o: ned/CMakeFiles/util.dir/flags.make
-ned/CMakeFiles/util.dir/util/keybinds.cpp.o: /Users/neal/dev/ned/util/keybinds.cpp
+ned/CMakeFiles/util.dir/util/keybinds.cpp.o: /Users/neal/dev/ImGui_Ned_Embed/ned/util/keybinds.cpp
 ned/CMakeFiles/util.dir/util/keybinds.cpp.o: ned/CMakeFiles/util.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/neal/dev/ImGui_Ned_Embed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object ned/CMakeFiles/util.dir/util/keybinds.cpp.o"
-	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ned/CMakeFiles/util.dir/util/keybinds.cpp.o -MF CMakeFiles/util.dir/util/keybinds.cpp.o.d -o CMakeFiles/util.dir/util/keybinds.cpp.o -c /Users/neal/dev/ned/util/keybinds.cpp
+	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ned/CMakeFiles/util.dir/util/keybinds.cpp.o -MF CMakeFiles/util.dir/util/keybinds.cpp.o.d -o CMakeFiles/util.dir/util/keybinds.cpp.o -c /Users/neal/dev/ImGui_Ned_Embed/ned/util/keybinds.cpp
 
 ned/CMakeFiles/util.dir/util/keybinds.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/util.dir/util/keybinds.cpp.i"
-	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/neal/dev/ned/util/keybinds.cpp > CMakeFiles/util.dir/util/keybinds.cpp.i
+	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/neal/dev/ImGui_Ned_Embed/ned/util/keybinds.cpp > CMakeFiles/util.dir/util/keybinds.cpp.i
 
 ned/CMakeFiles/util.dir/util/keybinds.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/util.dir/util/keybinds.cpp.s"
-	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/neal/dev/ned/util/keybinds.cpp -o CMakeFiles/util.dir/util/keybinds.cpp.s
+	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/neal/dev/ImGui_Ned_Embed/ned/util/keybinds.cpp -o CMakeFiles/util.dir/util/keybinds.cpp.s
 
 ned/CMakeFiles/util.dir/util/terminal.cpp.o: ned/CMakeFiles/util.dir/flags.make
-ned/CMakeFiles/util.dir/util/terminal.cpp.o: /Users/neal/dev/ned/util/terminal.cpp
+ned/CMakeFiles/util.dir/util/terminal.cpp.o: /Users/neal/dev/ImGui_Ned_Embed/ned/util/terminal.cpp
 ned/CMakeFiles/util.dir/util/terminal.cpp.o: ned/CMakeFiles/util.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/neal/dev/ImGui_Ned_Embed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object ned/CMakeFiles/util.dir/util/terminal.cpp.o"
-	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ned/CMakeFiles/util.dir/util/terminal.cpp.o -MF CMakeFiles/util.dir/util/terminal.cpp.o.d -o CMakeFiles/util.dir/util/terminal.cpp.o -c /Users/neal/dev/ned/util/terminal.cpp
+	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ned/CMakeFiles/util.dir/util/terminal.cpp.o -MF CMakeFiles/util.dir/util/terminal.cpp.o.d -o CMakeFiles/util.dir/util/terminal.cpp.o -c /Users/neal/dev/ImGui_Ned_Embed/ned/util/terminal.cpp
 
 ned/CMakeFiles/util.dir/util/terminal.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/util.dir/util/terminal.cpp.i"
-	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/neal/dev/ned/util/terminal.cpp > CMakeFiles/util.dir/util/terminal.cpp.i
+	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/neal/dev/ImGui_Ned_Embed/ned/util/terminal.cpp > CMakeFiles/util.dir/util/terminal.cpp.i
 
 ned/CMakeFiles/util.dir/util/terminal.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/util.dir/util/terminal.cpp.s"
-	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/neal/dev/ned/util/terminal.cpp -o CMakeFiles/util.dir/util/terminal.cpp.s
+	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/neal/dev/ImGui_Ned_Embed/ned/util/terminal.cpp -o CMakeFiles/util.dir/util/terminal.cpp.s
 
 ned/CMakeFiles/util.dir/util/close_popper.cpp.o: ned/CMakeFiles/util.dir/flags.make
-ned/CMakeFiles/util.dir/util/close_popper.cpp.o: /Users/neal/dev/ned/util/close_popper.cpp
+ned/CMakeFiles/util.dir/util/close_popper.cpp.o: /Users/neal/dev/ImGui_Ned_Embed/ned/util/close_popper.cpp
 ned/CMakeFiles/util.dir/util/close_popper.cpp.o: ned/CMakeFiles/util.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/neal/dev/ImGui_Ned_Embed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object ned/CMakeFiles/util.dir/util/close_popper.cpp.o"
-	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ned/CMakeFiles/util.dir/util/close_popper.cpp.o -MF CMakeFiles/util.dir/util/close_popper.cpp.o.d -o CMakeFiles/util.dir/util/close_popper.cpp.o -c /Users/neal/dev/ned/util/close_popper.cpp
+	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ned/CMakeFiles/util.dir/util/close_popper.cpp.o -MF CMakeFiles/util.dir/util/close_popper.cpp.o.d -o CMakeFiles/util.dir/util/close_popper.cpp.o -c /Users/neal/dev/ImGui_Ned_Embed/ned/util/close_popper.cpp
 
 ned/CMakeFiles/util.dir/util/close_popper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/util.dir/util/close_popper.cpp.i"
-	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/neal/dev/ned/util/close_popper.cpp > CMakeFiles/util.dir/util/close_popper.cpp.i
+	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/neal/dev/ImGui_Ned_Embed/ned/util/close_popper.cpp > CMakeFiles/util.dir/util/close_popper.cpp.i
 
 ned/CMakeFiles/util.dir/util/close_popper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/util.dir/util/close_popper.cpp.s"
-	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/neal/dev/ned/util/close_popper.cpp -o CMakeFiles/util.dir/util/close_popper.cpp.s
+	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/neal/dev/ImGui_Ned_Embed/ned/util/close_popper.cpp -o CMakeFiles/util.dir/util/close_popper.cpp.s
 
 ned/CMakeFiles/util.dir/util/welcome.cpp.o: ned/CMakeFiles/util.dir/flags.make
-ned/CMakeFiles/util.dir/util/welcome.cpp.o: /Users/neal/dev/ned/util/welcome.cpp
+ned/CMakeFiles/util.dir/util/welcome.cpp.o: /Users/neal/dev/ImGui_Ned_Embed/ned/util/welcome.cpp
 ned/CMakeFiles/util.dir/util/welcome.cpp.o: ned/CMakeFiles/util.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/neal/dev/ImGui_Ned_Embed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object ned/CMakeFiles/util.dir/util/welcome.cpp.o"
-	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ned/CMakeFiles/util.dir/util/welcome.cpp.o -MF CMakeFiles/util.dir/util/welcome.cpp.o.d -o CMakeFiles/util.dir/util/welcome.cpp.o -c /Users/neal/dev/ned/util/welcome.cpp
+	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ned/CMakeFiles/util.dir/util/welcome.cpp.o -MF CMakeFiles/util.dir/util/welcome.cpp.o.d -o CMakeFiles/util.dir/util/welcome.cpp.o -c /Users/neal/dev/ImGui_Ned_Embed/ned/util/welcome.cpp
 
 ned/CMakeFiles/util.dir/util/welcome.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/util.dir/util/welcome.cpp.i"
-	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/neal/dev/ned/util/welcome.cpp > CMakeFiles/util.dir/util/welcome.cpp.i
+	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/neal/dev/ImGui_Ned_Embed/ned/util/welcome.cpp > CMakeFiles/util.dir/util/welcome.cpp.i
 
 ned/CMakeFiles/util.dir/util/welcome.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/util.dir/util/welcome.cpp.s"
-	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/neal/dev/ned/util/welcome.cpp -o CMakeFiles/util.dir/util/welcome.cpp.s
+	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/neal/dev/ImGui_Ned_Embed/ned/util/welcome.cpp -o CMakeFiles/util.dir/util/welcome.cpp.s
 
 ned/CMakeFiles/util.dir/util/app.cpp.o: ned/CMakeFiles/util.dir/flags.make
-ned/CMakeFiles/util.dir/util/app.cpp.o: /Users/neal/dev/ned/util/app.cpp
+ned/CMakeFiles/util.dir/util/app.cpp.o: /Users/neal/dev/ImGui_Ned_Embed/ned/util/app.cpp
 ned/CMakeFiles/util.dir/util/app.cpp.o: ned/CMakeFiles/util.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/neal/dev/ImGui_Ned_Embed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object ned/CMakeFiles/util.dir/util/app.cpp.o"
-	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ned/CMakeFiles/util.dir/util/app.cpp.o -MF CMakeFiles/util.dir/util/app.cpp.o.d -o CMakeFiles/util.dir/util/app.cpp.o -c /Users/neal/dev/ned/util/app.cpp
+	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ned/CMakeFiles/util.dir/util/app.cpp.o -MF CMakeFiles/util.dir/util/app.cpp.o.d -o CMakeFiles/util.dir/util/app.cpp.o -c /Users/neal/dev/ImGui_Ned_Embed/ned/util/app.cpp
 
 ned/CMakeFiles/util.dir/util/app.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/util.dir/util/app.cpp.i"
-	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/neal/dev/ned/util/app.cpp > CMakeFiles/util.dir/util/app.cpp.i
+	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/neal/dev/ImGui_Ned_Embed/ned/util/app.cpp > CMakeFiles/util.dir/util/app.cpp.i
 
 ned/CMakeFiles/util.dir/util/app.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/util.dir/util/app.cpp.s"
-	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/neal/dev/ned/util/app.cpp -o CMakeFiles/util.dir/util/app.cpp.s
+	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/neal/dev/ImGui_Ned_Embed/ned/util/app.cpp -o CMakeFiles/util.dir/util/app.cpp.s
 
 ned/CMakeFiles/util.dir/util/debug_console.cpp.o: ned/CMakeFiles/util.dir/flags.make
-ned/CMakeFiles/util.dir/util/debug_console.cpp.o: /Users/neal/dev/ned/util/debug_console.cpp
+ned/CMakeFiles/util.dir/util/debug_console.cpp.o: /Users/neal/dev/ImGui_Ned_Embed/ned/util/debug_console.cpp
 ned/CMakeFiles/util.dir/util/debug_console.cpp.o: ned/CMakeFiles/util.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/neal/dev/ImGui_Ned_Embed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object ned/CMakeFiles/util.dir/util/debug_console.cpp.o"
-	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ned/CMakeFiles/util.dir/util/debug_console.cpp.o -MF CMakeFiles/util.dir/util/debug_console.cpp.o.d -o CMakeFiles/util.dir/util/debug_console.cpp.o -c /Users/neal/dev/ned/util/debug_console.cpp
+	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ned/CMakeFiles/util.dir/util/debug_console.cpp.o -MF CMakeFiles/util.dir/util/debug_console.cpp.o.d -o CMakeFiles/util.dir/util/debug_console.cpp.o -c /Users/neal/dev/ImGui_Ned_Embed/ned/util/debug_console.cpp
 
 ned/CMakeFiles/util.dir/util/debug_console.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/util.dir/util/debug_console.cpp.i"
-	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/neal/dev/ned/util/debug_console.cpp > CMakeFiles/util.dir/util/debug_console.cpp.i
+	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/neal/dev/ImGui_Ned_Embed/ned/util/debug_console.cpp > CMakeFiles/util.dir/util/debug_console.cpp.i
 
 ned/CMakeFiles/util.dir/util/debug_console.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/util.dir/util/debug_console.cpp.s"
-	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/neal/dev/ned/util/debug_console.cpp -o CMakeFiles/util.dir/util/debug_console.cpp.s
+	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/neal/dev/ImGui_Ned_Embed/ned/util/debug_console.cpp -o CMakeFiles/util.dir/util/debug_console.cpp.s
 
 ned/CMakeFiles/util.dir/util/font.cpp.o: ned/CMakeFiles/util.dir/flags.make
-ned/CMakeFiles/util.dir/util/font.cpp.o: /Users/neal/dev/ned/util/font.cpp
+ned/CMakeFiles/util.dir/util/font.cpp.o: /Users/neal/dev/ImGui_Ned_Embed/ned/util/font.cpp
 ned/CMakeFiles/util.dir/util/font.cpp.o: ned/CMakeFiles/util.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/neal/dev/ImGui_Ned_Embed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object ned/CMakeFiles/util.dir/util/font.cpp.o"
-	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ned/CMakeFiles/util.dir/util/font.cpp.o -MF CMakeFiles/util.dir/util/font.cpp.o.d -o CMakeFiles/util.dir/util/font.cpp.o -c /Users/neal/dev/ned/util/font.cpp
+	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ned/CMakeFiles/util.dir/util/font.cpp.o -MF CMakeFiles/util.dir/util/font.cpp.o.d -o CMakeFiles/util.dir/util/font.cpp.o -c /Users/neal/dev/ImGui_Ned_Embed/ned/util/font.cpp
 
 ned/CMakeFiles/util.dir/util/font.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/util.dir/util/font.cpp.i"
-	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/neal/dev/ned/util/font.cpp > CMakeFiles/util.dir/util/font.cpp.i
+	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/neal/dev/ImGui_Ned_Embed/ned/util/font.cpp > CMakeFiles/util.dir/util/font.cpp.i
 
 ned/CMakeFiles/util.dir/util/font.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/util.dir/util/font.cpp.s"
-	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/neal/dev/ned/util/font.cpp -o CMakeFiles/util.dir/util/font.cpp.s
+	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/neal/dev/ImGui_Ned_Embed/ned/util/font.cpp -o CMakeFiles/util.dir/util/font.cpp.s
 
 ned/CMakeFiles/util.dir/util/window_resize.cpp.o: ned/CMakeFiles/util.dir/flags.make
-ned/CMakeFiles/util.dir/util/window_resize.cpp.o: /Users/neal/dev/ned/util/window_resize.cpp
+ned/CMakeFiles/util.dir/util/window_resize.cpp.o: /Users/neal/dev/ImGui_Ned_Embed/ned/util/window_resize.cpp
 ned/CMakeFiles/util.dir/util/window_resize.cpp.o: ned/CMakeFiles/util.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/neal/dev/ImGui_Ned_Embed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object ned/CMakeFiles/util.dir/util/window_resize.cpp.o"
-	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ned/CMakeFiles/util.dir/util/window_resize.cpp.o -MF CMakeFiles/util.dir/util/window_resize.cpp.o.d -o CMakeFiles/util.dir/util/window_resize.cpp.o -c /Users/neal/dev/ned/util/window_resize.cpp
+	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ned/CMakeFiles/util.dir/util/window_resize.cpp.o -MF CMakeFiles/util.dir/util/window_resize.cpp.o.d -o CMakeFiles/util.dir/util/window_resize.cpp.o -c /Users/neal/dev/ImGui_Ned_Embed/ned/util/window_resize.cpp
 
 ned/CMakeFiles/util.dir/util/window_resize.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/util.dir/util/window_resize.cpp.i"
-	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/neal/dev/ned/util/window_resize.cpp > CMakeFiles/util.dir/util/window_resize.cpp.i
+	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/neal/dev/ImGui_Ned_Embed/ned/util/window_resize.cpp > CMakeFiles/util.dir/util/window_resize.cpp.i
 
 ned/CMakeFiles/util.dir/util/window_resize.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/util.dir/util/window_resize.cpp.s"
-	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/neal/dev/ned/util/window_resize.cpp -o CMakeFiles/util.dir/util/window_resize.cpp.s
+	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/neal/dev/ImGui_Ned_Embed/ned/util/window_resize.cpp -o CMakeFiles/util.dir/util/window_resize.cpp.s
 
 ned/CMakeFiles/util.dir/util/splitter.cpp.o: ned/CMakeFiles/util.dir/flags.make
-ned/CMakeFiles/util.dir/util/splitter.cpp.o: /Users/neal/dev/ned/util/splitter.cpp
+ned/CMakeFiles/util.dir/util/splitter.cpp.o: /Users/neal/dev/ImGui_Ned_Embed/ned/util/splitter.cpp
 ned/CMakeFiles/util.dir/util/splitter.cpp.o: ned/CMakeFiles/util.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/neal/dev/ImGui_Ned_Embed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object ned/CMakeFiles/util.dir/util/splitter.cpp.o"
-	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ned/CMakeFiles/util.dir/util/splitter.cpp.o -MF CMakeFiles/util.dir/util/splitter.cpp.o.d -o CMakeFiles/util.dir/util/splitter.cpp.o -c /Users/neal/dev/ned/util/splitter.cpp
+	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ned/CMakeFiles/util.dir/util/splitter.cpp.o -MF CMakeFiles/util.dir/util/splitter.cpp.o.d -o CMakeFiles/util.dir/util/splitter.cpp.o -c /Users/neal/dev/ImGui_Ned_Embed/ned/util/splitter.cpp
 
 ned/CMakeFiles/util.dir/util/splitter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/util.dir/util/splitter.cpp.i"
-	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/neal/dev/ned/util/splitter.cpp > CMakeFiles/util.dir/util/splitter.cpp.i
+	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/neal/dev/ImGui_Ned_Embed/ned/util/splitter.cpp > CMakeFiles/util.dir/util/splitter.cpp.i
 
 ned/CMakeFiles/util.dir/util/splitter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/util.dir/util/splitter.cpp.s"
-	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/neal/dev/ned/util/splitter.cpp -o CMakeFiles/util.dir/util/splitter.cpp.s
+	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/neal/dev/ImGui_Ned_Embed/ned/util/splitter.cpp -o CMakeFiles/util.dir/util/splitter.cpp.s
 
 ned/CMakeFiles/util.dir/util/init.cpp.o: ned/CMakeFiles/util.dir/flags.make
-ned/CMakeFiles/util.dir/util/init.cpp.o: /Users/neal/dev/ned/util/init.cpp
+ned/CMakeFiles/util.dir/util/init.cpp.o: /Users/neal/dev/ImGui_Ned_Embed/ned/util/init.cpp
 ned/CMakeFiles/util.dir/util/init.cpp.o: ned/CMakeFiles/util.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/neal/dev/ImGui_Ned_Embed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object ned/CMakeFiles/util.dir/util/init.cpp.o"
-	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ned/CMakeFiles/util.dir/util/init.cpp.o -MF CMakeFiles/util.dir/util/init.cpp.o.d -o CMakeFiles/util.dir/util/init.cpp.o -c /Users/neal/dev/ned/util/init.cpp
+	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ned/CMakeFiles/util.dir/util/init.cpp.o -MF CMakeFiles/util.dir/util/init.cpp.o.d -o CMakeFiles/util.dir/util/init.cpp.o -c /Users/neal/dev/ImGui_Ned_Embed/ned/util/init.cpp
 
 ned/CMakeFiles/util.dir/util/init.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/util.dir/util/init.cpp.i"
-	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/neal/dev/ned/util/init.cpp > CMakeFiles/util.dir/util/init.cpp.i
+	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/neal/dev/ImGui_Ned_Embed/ned/util/init.cpp > CMakeFiles/util.dir/util/init.cpp.i
 
 ned/CMakeFiles/util.dir/util/init.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/util.dir/util/init.cpp.s"
-	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/neal/dev/ned/util/init.cpp -o CMakeFiles/util.dir/util/init.cpp.s
+	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/neal/dev/ImGui_Ned_Embed/ned/util/init.cpp -o CMakeFiles/util.dir/util/init.cpp.s
 
 ned/CMakeFiles/util.dir/util/scroll.cpp.o: ned/CMakeFiles/util.dir/flags.make
-ned/CMakeFiles/util.dir/util/scroll.cpp.o: /Users/neal/dev/ned/util/scroll.cpp
+ned/CMakeFiles/util.dir/util/scroll.cpp.o: /Users/neal/dev/ImGui_Ned_Embed/ned/util/scroll.cpp
 ned/CMakeFiles/util.dir/util/scroll.cpp.o: ned/CMakeFiles/util.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/neal/dev/ImGui_Ned_Embed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object ned/CMakeFiles/util.dir/util/scroll.cpp.o"
-	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ned/CMakeFiles/util.dir/util/scroll.cpp.o -MF CMakeFiles/util.dir/util/scroll.cpp.o.d -o CMakeFiles/util.dir/util/scroll.cpp.o -c /Users/neal/dev/ned/util/scroll.cpp
+	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ned/CMakeFiles/util.dir/util/scroll.cpp.o -MF CMakeFiles/util.dir/util/scroll.cpp.o.d -o CMakeFiles/util.dir/util/scroll.cpp.o -c /Users/neal/dev/ImGui_Ned_Embed/ned/util/scroll.cpp
 
 ned/CMakeFiles/util.dir/util/scroll.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/util.dir/util/scroll.cpp.i"
-	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/neal/dev/ned/util/scroll.cpp > CMakeFiles/util.dir/util/scroll.cpp.i
+	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/neal/dev/ImGui_Ned_Embed/ned/util/scroll.cpp > CMakeFiles/util.dir/util/scroll.cpp.i
 
 ned/CMakeFiles/util.dir/util/scroll.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/util.dir/util/scroll.cpp.s"
-	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/neal/dev/ned/util/scroll.cpp -o CMakeFiles/util.dir/util/scroll.cpp.s
+	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/neal/dev/ImGui_Ned_Embed/ned/util/scroll.cpp -o CMakeFiles/util.dir/util/scroll.cpp.s
 
 ned/CMakeFiles/util.dir/util/render.cpp.o: ned/CMakeFiles/util.dir/flags.make
-ned/CMakeFiles/util.dir/util/render.cpp.o: /Users/neal/dev/ned/util/render.cpp
+ned/CMakeFiles/util.dir/util/render.cpp.o: /Users/neal/dev/ImGui_Ned_Embed/ned/util/render.cpp
 ned/CMakeFiles/util.dir/util/render.cpp.o: ned/CMakeFiles/util.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/neal/dev/ImGui_Ned_Embed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object ned/CMakeFiles/util.dir/util/render.cpp.o"
-	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ned/CMakeFiles/util.dir/util/render.cpp.o -MF CMakeFiles/util.dir/util/render.cpp.o.d -o CMakeFiles/util.dir/util/render.cpp.o -c /Users/neal/dev/ned/util/render.cpp
+	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ned/CMakeFiles/util.dir/util/render.cpp.o -MF CMakeFiles/util.dir/util/render.cpp.o.d -o CMakeFiles/util.dir/util/render.cpp.o -c /Users/neal/dev/ImGui_Ned_Embed/ned/util/render.cpp
 
 ned/CMakeFiles/util.dir/util/render.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/util.dir/util/render.cpp.i"
-	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/neal/dev/ned/util/render.cpp > CMakeFiles/util.dir/util/render.cpp.i
+	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/neal/dev/ImGui_Ned_Embed/ned/util/render.cpp > CMakeFiles/util.dir/util/render.cpp.i
 
 ned/CMakeFiles/util.dir/util/render.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/util.dir/util/render.cpp.s"
-	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/neal/dev/ned/util/render.cpp -o CMakeFiles/util.dir/util/render.cpp.s
+	cd /Users/neal/dev/ImGui_Ned_Embed/build/ned && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/neal/dev/ImGui_Ned_Embed/ned/util/render.cpp -o CMakeFiles/util.dir/util/render.cpp.s
 
 # Object files for target util
 util_OBJECTS = \
@@ -317,6 +317,6 @@ ned/CMakeFiles/util.dir/clean:
 .PHONY : ned/CMakeFiles/util.dir/clean
 
 ned/CMakeFiles/util.dir/depend:
-	cd /Users/neal/dev/ImGui_Ned_Embed/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/neal/dev/ImGui_Ned_Embed /Users/neal/dev/ned /Users/neal/dev/ImGui_Ned_Embed/build /Users/neal/dev/ImGui_Ned_Embed/build/ned /Users/neal/dev/ImGui_Ned_Embed/build/ned/CMakeFiles/util.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/neal/dev/ImGui_Ned_Embed/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/neal/dev/ImGui_Ned_Embed /Users/neal/dev/ImGui_Ned_Embed/ned /Users/neal/dev/ImGui_Ned_Embed/build /Users/neal/dev/ImGui_Ned_Embed/build/ned /Users/neal/dev/ImGui_Ned_Embed/build/ned/CMakeFiles/util.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : ned/CMakeFiles/util.dir/depend
 

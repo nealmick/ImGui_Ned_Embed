@@ -1,5 +1,5 @@
 ned/CMakeFiles/tree-sitter-lib.dir/lib/tree-sitter/lib/src/parser.c.o: \
-  /Users/neal/dev/ned/lib/tree-sitter/lib/src/parser.c \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter/lib/src/parser.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/time.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_time.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types.h \
@@ -63,7 +63,7 @@ ned/CMakeFiles/tree-sitter-lib.dir/lib/tree-sitter/lib/src/parser.c.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_uint64_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_intmax_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_uintmax_t.h \
-  /Users/neal/dev/ned/lib/tree-sitter/lib/include/tree_sitter/api.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter/lib/include/tree_sitter/api.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/wait.h \
@@ -101,10 +101,10 @@ ned/CMakeFiles/tree-sitter-lib.dir/lib/tree-sitter/lib/src/parser.c.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_abort.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_dev_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_mode_t.h \
-  /Users/neal/dev/ned/lib/tree-sitter/lib/src/./alloc.h \
-  /Users/neal/dev/ned/lib/tree-sitter/lib/src/./array.h \
-  /Users/neal/dev/ned/lib/tree-sitter/lib/src/././alloc.h \
-  /Users/neal/dev/ned/lib/tree-sitter/lib/src/././ts_assert.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter/lib/src/./alloc.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter/lib/src/./array.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter/lib/src/././alloc.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter/lib/src/././ts_assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_static_assert.h \
@@ -115,7 +115,7 @@ ned/CMakeFiles/tree-sitter-lib.dir/lib/tree-sitter/lib/src/parser.c.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_strings.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/secure/_strings.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/secure/_string.h \
-  /Users/neal/dev/ned/lib/tree-sitter/lib/src/./atomic.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter/lib/src/./atomic.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_header_macro.h \
@@ -126,28 +126,28 @@ ned/CMakeFiles/tree-sitter-lib.dir/lib/tree-sitter/lib/src/parser.c.o: \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_null.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_max_align_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_offsetof.h \
-  /Users/neal/dev/ned/lib/tree-sitter/lib/src/./clock.h \
-  /Users/neal/dev/ned/lib/tree-sitter/lib/src/./error_costs.h \
-  /Users/neal/dev/ned/lib/tree-sitter/lib/src/./get_changed_ranges.h \
-  /Users/neal/dev/ned/lib/tree-sitter/lib/src/././tree_cursor.h \
-  /Users/neal/dev/ned/lib/tree-sitter/lib/src/./././subtree.h \
-  /Users/neal/dev/ned/lib/tree-sitter/lib/src/././././length.h \
-  /Users/neal/dev/ned/lib/tree-sitter/lib/src/./././././point.h \
-  /Users/neal/dev/ned/lib/tree-sitter/lib/src/././././array.h \
-  /Users/neal/dev/ned/lib/tree-sitter/lib/src/././././error_costs.h \
-  /Users/neal/dev/ned/lib/tree-sitter/lib/src/././././host.h \
-  /Users/neal/dev/ned/lib/tree-sitter/lib/src/././././parser.h \
-  /Users/neal/dev/ned/lib/tree-sitter/lib/src/././subtree.h \
-  /Users/neal/dev/ned/lib/tree-sitter/lib/src/./language.h \
-  /Users/neal/dev/ned/lib/tree-sitter/lib/src/././parser.h \
-  /Users/neal/dev/ned/lib/tree-sitter/lib/src/./length.h \
-  /Users/neal/dev/ned/lib/tree-sitter/lib/src/./lexer.h \
-  /Users/neal/dev/ned/lib/tree-sitter/lib/src/././length.h \
-  /Users/neal/dev/ned/lib/tree-sitter/lib/src/./reduce_action.h \
-  /Users/neal/dev/ned/lib/tree-sitter/lib/src/././array.h \
-  /Users/neal/dev/ned/lib/tree-sitter/lib/src/./reusable_node.h \
-  /Users/neal/dev/ned/lib/tree-sitter/lib/src/./stack.h \
-  /Users/neal/dev/ned/lib/tree-sitter/lib/src/./subtree.h \
-  /Users/neal/dev/ned/lib/tree-sitter/lib/src/./tree.h \
-  /Users/neal/dev/ned/lib/tree-sitter/lib/src/./ts_assert.h \
-  /Users/neal/dev/ned/lib/tree-sitter/lib/src/./wasm_store.h
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter/lib/src/./clock.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter/lib/src/./error_costs.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter/lib/src/./get_changed_ranges.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter/lib/src/././tree_cursor.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter/lib/src/./././subtree.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter/lib/src/././././length.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter/lib/src/./././././point.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter/lib/src/././././array.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter/lib/src/././././error_costs.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter/lib/src/././././host.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter/lib/src/././././parser.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter/lib/src/././subtree.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter/lib/src/./language.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter/lib/src/././parser.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter/lib/src/./length.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter/lib/src/./lexer.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter/lib/src/././length.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter/lib/src/./reduce_action.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter/lib/src/././array.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter/lib/src/./reusable_node.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter/lib/src/./stack.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter/lib/src/./subtree.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter/lib/src/./tree.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter/lib/src/./ts_assert.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter/lib/src/./wasm_store.h

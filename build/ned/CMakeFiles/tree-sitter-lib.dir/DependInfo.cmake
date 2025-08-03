@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/neal/dev/ned/lib/tree-sitter/lib/src/lib.c" "ned/CMakeFiles/tree-sitter-lib.dir/lib/tree-sitter/lib/src/lib.c.o" "gcc" "ned/CMakeFiles/tree-sitter-lib.dir/lib/tree-sitter/lib/src/lib.c.o.d"
-  "/Users/neal/dev/ned/lib/tree-sitter/lib/src/parser.c" "ned/CMakeFiles/tree-sitter-lib.dir/lib/tree-sitter/lib/src/parser.c.o" "gcc" "ned/CMakeFiles/tree-sitter-lib.dir/lib/tree-sitter/lib/src/parser.c.o.d"
-  "/Users/neal/dev/ned/lib/tree-sitter/lib/src/query.c" "ned/CMakeFiles/tree-sitter-lib.dir/lib/tree-sitter/lib/src/query.c.o" "gcc" "ned/CMakeFiles/tree-sitter-lib.dir/lib/tree-sitter/lib/src/query.c.o.d"
+  "/Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter/lib/src/lib.c" "ned/CMakeFiles/tree-sitter-lib.dir/lib/tree-sitter/lib/src/lib.c.o" "gcc" "ned/CMakeFiles/tree-sitter-lib.dir/lib/tree-sitter/lib/src/lib.c.o.d"
+  "/Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter/lib/src/parser.c" "ned/CMakeFiles/tree-sitter-lib.dir/lib/tree-sitter/lib/src/parser.c.o" "gcc" "ned/CMakeFiles/tree-sitter-lib.dir/lib/tree-sitter/lib/src/parser.c.o.d"
+  "/Users/neal/dev/ImGui_Ned_Embed/ned/lib/tree-sitter/lib/src/query.c" "ned/CMakeFiles/tree-sitter-lib.dir/lib/tree-sitter/lib/src/query.c.o" "gcc" "ned/CMakeFiles/tree-sitter-lib.dir/lib/tree-sitter/lib/src/query.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

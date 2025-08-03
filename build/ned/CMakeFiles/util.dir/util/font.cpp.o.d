@@ -1,5 +1,6 @@
 ned/CMakeFiles/util.dir/util/font.cpp.o: \
-  /Users/neal/dev/ned/util/font.cpp /Users/neal/dev/ned/util/font.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/util/font.cpp \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/util/font.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/max.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/comp.h \
@@ -642,19 +643,19 @@ ned/CMakeFiles/util.dir/util/font.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/pstl.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/sample.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/bit \
-  /Users/neal/dev/ned/lib/imgui/imgui.h \
-  /Users/neal/dev/ned/ned_imgui_config.h \
-  /Users/neal/dev/ned/lib/imgui/imconfig.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/imgui/imgui.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/ned_imgui_config.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/imgui/imconfig.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/float.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/float.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/float.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_static_assert.h \
-  /Users/neal/dev/ned/lib/imgui/backends/imgui_impl_opengl3.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/imgui/backends/imgui_impl_opengl3.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/TargetConditionals.h \
-  /Users/neal/dev/ned/util/settings.h \
-  /Users/neal/dev/ned/util/../lib/json.hpp \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/util/settings.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/util/../lib/json.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/functional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/binary_negate.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/bind.h \
@@ -847,7 +848,7 @@ ned/CMakeFiles/util.dir/util/font.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/u8path.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/any \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono \
-  /Users/neal/dev/ned/util/close_popper.h \
-  /Users/neal/dev/ned/util/settings_file_manager.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/util/close_popper.h \
+  /Users/neal/dev/ImGui_Ned_Embed/ned/util/settings_file_manager.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
-  /Users/neal/dev/ned/lib/imgui/misc/freetype/imgui_freetype.h
+  /Users/neal/dev/ImGui_Ned_Embed/ned/lib/imgui/misc/freetype/imgui_freetype.h
