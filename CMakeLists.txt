@@ -8,8 +8,8 @@ find_package(glfw3 REQUIRED)
 find_path(GLEW_INCLUDE_DIR GL/glew.h)
 find_library(GLEW_LIBRARY NAMES GLEW glew)
 
-# Add the NED project as a subdirectory (using local directory)
-add_subdirectory(../ned ned)
+# Add the NED project as a subdirectory (using git submodule)
+add_subdirectory(ned)
 
 # Create the main demo executable
 add_executable(ImGuiDemo main.cpp

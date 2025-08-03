@@ -1,65 +1,100 @@
-# ImGui_Ned_Embed
-Add Ned to your Dear ImGui app!
+# ImGui NED Embed Demo
 
-## Prerequisites
+A simple demo application that embeds the NED editor as an ImGui window.
 
-Before building this project, you need to install the following dependencies:
+## Current Setup
 
-### On macOS (using Homebrew):
+✅ **NED Submodule**: The demo now uses NED as a git submodule (`ned/`) instead of a local directory.
+
+❌ **ImGui Issue**: Currently, NED is using its own ImGui (`ned/lib/imgui/`) while the demo app doesn't have its own ImGui submodule. This creates a potential version conflict.
+
+## Plan: Fix ImGui Submodule Setup
+
+### Current Problem
+- NED submodule has its own ImGui at `ned/lib/imgui/`
+- Demo app doesn't have a top-level ImGui submodule
+- This could lead to version conflicts or confusion about which ImGui is being used
+
+### Solution Plan
+
+#### Step 1: Add ImGui as Top-Level Submodule
 ```bash
-brew install cmake glfw
+# Add ImGui as a submodule at the demo level
+git submodule add https://github.com/ocornut/imgui.git imgui
 ```
 
-### On Ubuntu/Debian:
-```bash
-sudo apt-get install cmake libglfw3-dev libgl1-mesa-dev
+#### Step 2: Modify NED's CMakeLists.txt
+We need to modify `ned/CMakeLists.txt` to use the top-level ImGui instead of its own:
+
+**Current (in ned/CMakeLists.txt):**
+```cmake
+# NED uses its own ImGui
+lib/imgui/imgui.cpp
+lib/imgui/imgui_demo.cpp
+# ... etc
 ```
 
-### On Windows:
-- Install CMake from https://cmake.org/download/
-- Install GLFW from https://www.glfw.org/download/
-- Install a C++ compiler (Visual Studio, MinGW, etc.)
-
-## Building the Project
-
-1. Clone the repository and initialize submodules:
-```bash
-git clone <your-repo-url>
-cd ImGui_Ned_Embed
-git submodule update --init --recursive
+**Change to:**
+```cmake
+# Use top-level ImGui from parent project
+${CMAKE_SOURCE_DIR}/imgui/imgui.cpp
+${CMAKE_SOURCE_DIR}/imgui/imgui_demo.cpp
+# ... etc
 ```
 
-2. Run the build script:
-```bash
-./build.sh
+#### Step 3: Update Include Paths
+Update `ned/CMakeLists.txt` include paths:
+```cmake
+# Change from:
+lib/imgui
+lib/imgui/backends
+
+# To:
+${CMAKE_SOURCE_DIR}/imgui
+${CMAKE_SOURCE_DIR}/imgui/backends
 ```
 
-## Running the Demo
-
-After successful build, run the demo:
+#### Step 4: Remove NED's ImGui
+After confirming everything works:
 ```bash
-./build/ImGuiDemo
+# Remove NED's internal ImGui
+rm -rf ned/lib/imgui
 ```
 
-## Features
+### Potential Issues & Solutions
 
-The demo includes:
-- ImGui demo window with all available widgets
-- Custom window with interactive controls
-- Real-time FPS counter
-- Color picker and sliders
-- Button interactions
+#### Issue 1: Version Mismatch
+**Problem**: NED's internal ImGui might be a different version than the top-level one.
+**Solution**: Pin both to the same commit or update NED to use the top-level version.
 
-## Project Structure
+#### Issue 2: Build System Complexity
+**Problem**: Modifying NED's CMakeLists.txt makes it less portable.
+**Solution**: Use conditional compilation in NED's CMakeLists.txt:
+```cmake
+if(USE_EXTERNAL_IMGUI)
+    # Use top-level ImGui
+    ${CMAKE_SOURCE_DIR}/imgui/imgui.cpp
+else()
+    # Use internal ImGui
+    lib/imgui/imgui.cpp
+endif()
+```
 
-- `main.cpp` - Main application with ImGui demo
-- `CMakeLists.txt` - CMake configuration
-- `build.sh` - Build script
-- `imgui/` - ImGui library (submodule)
+#### Issue 3: Include Path Conflicts
+**Problem**: Both ImGui versions might be in the include path.
+**Solution**: Ensure only one ImGui is in the include path at build time.
 
-## Troubleshooting
+### Alternative Approach: Keep It Simple
 
-If you encounter build errors:
-1. Make sure all dependencies are installed
-2. Ensure you have a C++17 compatible compiler
-3. Check that the ImGui submodule is properly initialized
+If the above gets too complex, we could:
+1. **Keep current setup** - NED uses its own ImGui, demo doesn't have one
+2. **Document the setup** - Make it clear that NED manages its own ImGui
+3. **Version pinning** - Ensure NED's ImGui is pinned to a known good version
+
+### Current Status
+
+✅ **Working**: NED submodule with its own ImGui  
+⏳ **Planning**: Unified ImGui submodule approach  
+🤔 **Decision needed**: Whether to proceed with unified ImGui or keep current setup
+
+The current setup actually works fine - the main benefit of unified ImGui would be version consistency and potentially smaller repo size.
