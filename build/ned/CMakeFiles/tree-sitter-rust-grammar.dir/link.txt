@@ -1,2 +1,0 @@
-/usr/bin/ar qc libtree-sitter-rust-grammar.a "CMakeFiles/tree-sitter-rust-grammar.dir/lib/tree-sitter-rust/src/parser.c.o" "CMakeFiles/tree-sitter-rust-grammar.dir/lib/tree-sitter-rust/src/scanner.c.o"
-/usr/bin/ranlib libtree-sitter-rust-grammar.a

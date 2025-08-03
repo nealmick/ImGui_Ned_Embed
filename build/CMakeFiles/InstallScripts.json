@@ -1,8 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/Users/neal/dev/ImGui_Ned_Embed/build/cmake_install.cmake",
-		"/Users/neal/dev/ImGui_Ned_Embed/build/ned/cmake_install.cmake"
-	],
-	"Parallel" : false
-}

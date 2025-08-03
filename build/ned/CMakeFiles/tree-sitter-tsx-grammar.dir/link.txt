@@ -1,2 +1,0 @@
-/usr/bin/ar qc libtree-sitter-tsx-grammar.a "CMakeFiles/tree-sitter-tsx-grammar.dir/lib/tree-sitter-typescript/tsx/src/parser.c.o" "CMakeFiles/tree-sitter-tsx-grammar.dir/lib/tree-sitter-typescript/tsx/src/scanner.c.o"
-/usr/bin/ranlib libtree-sitter-tsx-grammar.a

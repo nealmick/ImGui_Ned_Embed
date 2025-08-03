@@ -1,2 +1,0 @@
-/usr/bin/ar qc libnfd.a CMakeFiles/nfd.dir/lib/nativefiledialog/src/nfd_common.c.o CMakeFiles/nfd.dir/lib/nativefiledialog/src/nfd_cocoa.m.o
-/usr/bin/ranlib libnfd.a

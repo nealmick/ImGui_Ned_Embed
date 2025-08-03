@@ -1,2 +1,0 @@
-/usr/bin/ar qc libtree-sitter-typescript-grammar.a "CMakeFiles/tree-sitter-typescript-grammar.dir/lib/tree-sitter-typescript/typescript/src/parser.c.o" "CMakeFiles/tree-sitter-typescript-grammar.dir/lib/tree-sitter-typescript/typescript/src/scanner.c.o"
-/usr/bin/ranlib libtree-sitter-typescript-grammar.a

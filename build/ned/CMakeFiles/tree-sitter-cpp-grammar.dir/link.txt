@@ -1,2 +1,0 @@
-/usr/bin/ar qc libtree-sitter-cpp-grammar.a "CMakeFiles/tree-sitter-cpp-grammar.dir/lib/tree-sitter-cpp/src/parser.c.o" "CMakeFiles/tree-sitter-cpp-grammar.dir/lib/tree-sitter-cpp/src/scanner.c.o"
-/usr/bin/ranlib libtree-sitter-cpp-grammar.a
