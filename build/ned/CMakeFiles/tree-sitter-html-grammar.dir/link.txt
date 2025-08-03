@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtree-sitter-html-grammar.a "CMakeFiles/tree-sitter-html-grammar.dir/lib/tree-sitter-html/src/parser.c.o" "CMakeFiles/tree-sitter-html-grammar.dir/lib/tree-sitter-html/src/scanner.c.o"
+/usr/bin/ranlib libtree-sitter-html-grammar.a

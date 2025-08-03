@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtree-sitter-hcl-grammar.a "CMakeFiles/tree-sitter-hcl-grammar.dir/lib/tree-sitter-hcl/src/parser.c.o" "CMakeFiles/tree-sitter-hcl-grammar.dir/lib/tree-sitter-hcl/src/scanner.c.o"
+/usr/bin/ranlib libtree-sitter-hcl-grammar.a

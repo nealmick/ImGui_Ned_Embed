@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtree-sitter-json-grammar.a "CMakeFiles/tree-sitter-json-grammar.dir/lib/tree-sitter-json/src/parser.c.o"
+/usr/bin/ranlib libtree-sitter-json-grammar.a

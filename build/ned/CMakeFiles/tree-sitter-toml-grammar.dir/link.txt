@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtree-sitter-toml-grammar.a "CMakeFiles/tree-sitter-toml-grammar.dir/lib/tree-sitter-toml/src/parser.c.o" "CMakeFiles/tree-sitter-toml-grammar.dir/lib/tree-sitter-toml/src/scanner.c.o"
+/usr/bin/ranlib libtree-sitter-toml-grammar.a

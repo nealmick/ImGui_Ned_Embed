@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtree-sitter-ruby-grammar.a "CMakeFiles/tree-sitter-ruby-grammar.dir/lib/tree-sitter-ruby/src/parser.c.o" "CMakeFiles/tree-sitter-ruby-grammar.dir/lib/tree-sitter-ruby/src/scanner.c.o"
+/usr/bin/ranlib libtree-sitter-ruby-grammar.a

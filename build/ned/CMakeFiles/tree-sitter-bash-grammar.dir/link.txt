@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtree-sitter-bash-grammar.a "CMakeFiles/tree-sitter-bash-grammar.dir/lib/tree-sitter-bash/src/parser.c.o" "CMakeFiles/tree-sitter-bash-grammar.dir/lib/tree-sitter-bash/src/scanner.c.o"
+/usr/bin/ranlib libtree-sitter-bash-grammar.a

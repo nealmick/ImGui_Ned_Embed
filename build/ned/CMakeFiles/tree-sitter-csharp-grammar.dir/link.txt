@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtree-sitter-csharp-grammar.a "CMakeFiles/tree-sitter-csharp-grammar.dir/lib/tree-sitter-csharp/src/parser.c.o" "CMakeFiles/tree-sitter-csharp-grammar.dir/lib/tree-sitter-csharp/src/scanner.c.o"
+/usr/bin/ranlib libtree-sitter-csharp-grammar.a

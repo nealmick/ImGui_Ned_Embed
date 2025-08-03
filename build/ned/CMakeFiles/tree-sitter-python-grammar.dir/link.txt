@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtree-sitter-python-grammar.a "CMakeFiles/tree-sitter-python-grammar.dir/lib/tree-sitter-python/src/parser.c.o" "CMakeFiles/tree-sitter-python-grammar.dir/lib/tree-sitter-python/src/scanner.c.o"
+/usr/bin/ranlib libtree-sitter-python-grammar.a

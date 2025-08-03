@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtree-sitter-go-grammar.a "CMakeFiles/tree-sitter-go-grammar.dir/lib/tree-sitter-go/src/parser.c.o"
+/usr/bin/ranlib libtree-sitter-go-grammar.a

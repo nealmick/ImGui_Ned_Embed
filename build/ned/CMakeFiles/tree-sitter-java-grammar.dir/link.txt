@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtree-sitter-java-grammar.a "CMakeFiles/tree-sitter-java-grammar.dir/lib/tree-sitter-java/src/parser.c.o"
+/usr/bin/ranlib libtree-sitter-java-grammar.a

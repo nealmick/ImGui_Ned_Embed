@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtree-sitter-css-grammar.a "CMakeFiles/tree-sitter-css-grammar.dir/lib/tree-sitter-css/src/parser.c.o" "CMakeFiles/tree-sitter-css-grammar.dir/lib/tree-sitter-css/src/scanner.c.o"
+/usr/bin/ranlib libtree-sitter-css-grammar.a
