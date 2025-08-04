@@ -15,7 +15,7 @@ add_subdirectory(imgui)
 # - Submodule path: add_subdirectory(ned)
 # - Any other path: add_subdirectory(/path/to/ned ned)
 #add_subdirectory(../ned ned)
-add_subdirectory(ned)
+#add_subdirectory(ned)
 
 add_executable(ImGuiDemo main.cpp)
 
