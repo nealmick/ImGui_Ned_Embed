@@ -5,4 +5,3 @@
 [submodule "ned"]
 	path = ned
 	url = https://github.com/nealmick/ned.git
-	branch = main

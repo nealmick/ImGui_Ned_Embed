@@ -1,31 +1,34 @@
 cmake_minimum_required(VERSION 3.16)
 project(ImGuiDemo)
 
-find_package(OpenGL REQUIRED)
-find_package(glfw3 REQUIRED)
-find_package(Freetype REQUIRED)
-find_package(GLEW REQUIRED)
-
-# Add ImGui as a submodule (or use system ImGui)
-add_subdirectory(imgui)
+# Set NED path - can be customized for different setups
+set(NED_PATH "./ned" CACHE PATH "Path to the NED project")
 
 # Add NED as subdirectory
-# You can switch between:
-# - Local path: add_subdirectory(../ned ned)
-# - Submodule path: add_subdirectory(ned)
-# - Any other path: add_subdirectory(/path/to/ned ned)
-#add_subdirectory(../ned ned)
-#add_subdirectory(ned)
+add_subdirectory(${NED_PATH} ned)
 
-add_executable(ImGuiDemo main.cpp)
+# Include ImGui source files directly
+set(IMGUI_SOURCES
+    imgui/imgui.cpp
+    imgui/imgui_demo.cpp
+    imgui/imgui_draw.cpp
+    imgui/imgui_tables.cpp
+    imgui/imgui_widgets.cpp
+    imgui/backends/imgui_impl_glfw.cpp
+    imgui/backends/imgui_impl_opengl3.cpp
+    imgui/misc/freetype/imgui_freetype.cpp
+)
 
-# Link everything together
-# (Order: OpenGL, glfw, GLEW, Freetype, imgui, ned_embed)
-target_link_libraries(ImGuiDemo
-    OpenGL::GL
-    glfw
-    GLEW::GLEW
-    Freetype::Freetype
-    imgui
-    ned_embed
-) 
+# Create the demo executable with ImGui sources
+add_executable(ImGuiDemo main.cpp ${IMGUI_SOURCES})
+
+# Use NED's ImGui configuration
+target_compile_definitions(ImGuiDemo PRIVATE IMGUI_USER_CONFIG="${CMAKE_CURRENT_SOURCE_DIR}/${NED_PATH}/ned_imgui_config.h")
+
+# Add FreeType include directories for ImGui
+target_include_directories(ImGuiDemo PRIVATE
+    $<TARGET_PROPERTY:Freetype::Freetype,INTERFACE_INCLUDE_DIRECTORIES>
+)
+
+# Link with NED
+target_link_libraries(ImGuiDemo ned_embed)

@@ -1,159 +1,113 @@
-# NED Editor - ImGui Embed Demo
+# ImGui NED Embed Demo
 
-This project demonstrates how to embed the NED text editor into your own ImGui applications. It shows a complete working example of integrating NED as a component within an ImGui-based application.
+A demonstration of embedding the NED text editor into an ImGui application. This project shows how to integrate NED's editor functionality into your own ImGui-based applications.
+
+## Features
+
+- Embedded NED text editor with full functionality
+- ImGui-based user interface
+- Tree Sitter syntax highlighting
+- LSP integration support
+- Terminal emulator
+- Multi-cursor editing
+
+## Prerequisites
+
+### System Requirements
+- CMake (version 3.16 or higher)
+- C++17 compatible compiler
+- OpenGL
+- GLFW3
+- GLEW
+- CURL
+- FreeType
+
+### Package Installation
+
+#### macOS (Intel and ARM)
+```bash
+brew install clang-format cmake llvm glfw glew pkg-config curl freetype
+```
+
+#### Ubuntu/Debian
+```bash
+sudo apt install cmake libglfw3-dev libglew-dev libgtk-3-dev pkg-config build-essential libcurl4-openssl-dev clang-format mesa-utils libfreetype6-dev
+```
+
+## Getting Started
+
+### 1. Clone the Repository
+
+Clone this repository with all submodules:
+
+```bash
+git clone --recursive https://github.com/your-username/ImGui_Ned_Embed.git
+cd ImGui_Ned_Embed
+```
+
+### 2. Initialize Submodules
+
+**Important**: This project uses submodules for both ImGui and NED. Make sure to initialize them recursively:
+
+```bash
+# Initialize all submodules
+git submodule init
+git submodule update --init --recursive
+```
+
+**Note**: The `--recursive` flag is crucial because NED itself has its own submodules (tree-sitter parsers, etc.) that need to be initialized.
+
+### 3. Build the Project
+
+Run the build script:
+
+```bash
+./build.sh
+```
+
+This will:
+- Configure the project with CMake
+- Build the NED library and all its dependencies
+- Compile the ImGui demo application
+- Create the `ImGuiDemo` executable
+
+### 4. Run the Demo
+
+```bash
+./ImGuiDemo
+```
 
 ## Project Structure
 
 ```
 ImGui_Ned_Embed/
-├── main.cpp              # Demo application entry point
-├── CMakeLists.txt        # Build configuration
-├── build.sh              # Build script
-├── ned/                  # NED submodule (embedded editor)
-├── imgui/                # ImGui submodule
-└── README.md            # This file
+├── imgui/              # ImGui library submodule
+├── ned/                # NED editor submodule
+├── main.cpp            # Main application entry point
+├── CMakeLists.txt      # Build configuration
+├── build.sh            # Build script
+└── README.md           # This file
 ```
 
-## Features
+## Submodules
 
-- **Complete NED Editor**: Full-featured text editor with syntax highlighting, file tree, and AI agent
-- **ImGui Integration**: Seamlessly embedded as an ImGui window
-- **Font Management**: Dynamic font loading and size adjustment
-- **Settings Integration**: Full settings system with embedded mode support
-- **Simple API**: Easy to integrate into your own projects
+This project uses two main submodules:
 
-## Building
-
-### Prerequisites
-
-- CMake 3.16+
-- OpenGL
-- GLFW3
-- FreeType
-- GLEW
-- C++17 compiler
-
-### Build Instructions
-
-```bash
-# Clone with submodules
-git clone --recursive <repository-url>
-cd ImGui_Ned_Embed
-
-# Build
-./build.sh
-
-# Run
-./ImGuiDemo
-```
-
-## Usage
-
-The demo application shows:
-- ImGui demo window (for reference)
-- Embedded NED editor window
-- Font size adjustment (Cmd++/Cmd+-)
-- Settings window with embedded mode optimizations
-
-## Integration Guide
-
-### Basic Integration
-
-```cpp
-#include "ned_embed.h"
-
-// Initialize
-NedEmbed nedEditor;
-nedEditor.initialize();
-
-// In your render loop
-nedEditor.checkForFontReload();  // Call BEFORE ImGui::NewFrame()
-ImGui::NewFrame();
-
-// Render the editor
-if (ImGui::Begin("My Editor")) {
-    nedEditor.render();
-}
-ImGui::End();
-
-// Cleanup
-nedEditor.cleanup();
-```
-
-### Key Integration Points
-
-1. **Font Reloading**: Must call `checkForFontReload()` before `ImGui::NewFrame()`
-2. **Embedded Mode**: Automatically configured for embedded use
-3. **Settings**: Uses embedded-optimized settings (transparent scrollbars, etc.)
-4. **Window Management**: Handles its own internal window management
-
-## Configuration
-
-### Switching Between Local and Submodule
-
-The CMakeLists.txt supports multiple ways to include NED:
-
-```cmake
-# Use submodule (current)
-add_subdirectory(ned)
-
-# Use local path
-add_subdirectory(../ned ned)
-
-# Use any other path
-add_subdirectory(/path/to/ned ned)
-```
-
-### Embedded Mode Features
-
-When used as an embedded component, NED automatically:
-- Disables window dragging from content area (only title bar)
-- Makes settings window non-collapsible
-- Uses transparent scrollbar tracks
-- Optimizes background colors for embedded use
-- Handles font reloading internally
-
-## Architecture
-
-### Unified ImGui Setup
-
-The project uses a unified ImGui library approach:
-- Single ImGui build from the `imgui/` submodule
-- NED components link to the same ImGui library
-- Prevents redefinition errors and version conflicts
-- Uses NED's custom ImGui configuration
-
-### Conditional Compilation
-
-NED's CMakeLists.txt detects whether it's being built:
-- **Standalone**: Compiles its own ImGui sources
-- **Embedded**: Uses parent project's ImGui library
-
-This allows NED to work both as a standalone application and as an embedded component.
-
-## Troubleshooting
-
-### Common Issues
-
-1. **Font Reloading Crashes**: Ensure `checkForFontReload()` is called before `ImGui::NewFrame()`
-2. **ImGui Redefinition**: The unified setup should prevent this
-3. **Missing Dependencies**: Check that all required libraries are installed
-
-### Build Issues
-
-- **GLFW not found**: Install via package manager or build from source
-- **FreeType not found**: Install development headers
-- **OpenGL not found**: Ensure OpenGL development libraries are installed
+1. **ImGui** (`imgui/`): The official ImGui library from the docking branch
+2. **NED** (`ned/`): The NED text editor project with all its dependencies
 
 
-## Contributing
+The main application code is in `main.cpp`. The NED editor is embedded through the `ned_embed` library, which provides a clean API for integration.
 
-When contributing to the embedded demo:
-1. Test both local and submodule paths
-2. Ensure font reloading works correctly
-3. Verify embedded mode features function properly
-4. Update this README for any new features
+### Customization
+
+You can customize the ImGui configuration by modifying the `ned_imgui_config.h` file in the NED submodule, or by creating your own configuration file.
 
 ## License
 
-See the main NED repository for license information.
+This project uses components with different licenses:
+- ImGui: MIT License
+- NED: MIT License
+- Various tree-sitter parsers: MIT License
+
+Please refer to the individual component licenses for more details.
