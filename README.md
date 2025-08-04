@@ -57,7 +57,22 @@ git submodule update --init --recursive
 
 **Note**: The `--recursive` flag is crucial because NED itself has its own submodules (tree-sitter parsers, etc.) that need to be initialized.
 
-### 3. Build the Project
+### 3. Update NED to Latest Version (Recommended)
+
+The NED submodule is configured to track the `main` branch. To get the latest features and bug fixes:
+
+```bash
+# Update NED submodule to latest commit on main branch
+git submodule update --remote ned
+
+# Commit the updated submodule reference
+git add ned
+git commit -m "Update ned submodule to latest commit"
+```
+
+**Note**: This step is optional but recommended to get the latest NED features and improvements.
+
+### 4. Build the Project
 
 Run the build script:
 
@@ -71,7 +86,7 @@ This will:
 - Compile the ImGui demo application
 - Create the `ImGuiDemo` executable
 
-### 4. Run the Demo
+### 5. Run the Demo
 
 ```bash
 ./ImGuiDemo
@@ -86,7 +101,6 @@ ImGui_Ned_Embed/
 ├── main.cpp            # Main application entry point
 ├── CMakeLists.txt      # Build configuration
 ├── build.sh            # Build script
-└── README.md           # This file
 ```
 
 ## Submodules
@@ -97,7 +111,7 @@ This project uses two main submodules:
 2. **NED** (`ned/`): The NED text editor project with all its dependencies
 
 
-The main application code is in `main.cpp`. The NED editor is embedded through the `ned_embed` library, which provides a clean API for integration.
+The NED editor is embedded through the `ned_embed` library, which provides a API for integration.
 
 ### Customization
 

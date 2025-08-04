@@ -1,7 +1,7 @@
 [submodule "imgui"]
 	path = imgui
 	url = https://github.com/ocornut/imgui.git
-	branch = docking
 [submodule "ned"]
 	path = ned
 	url = https://github.com/nealmick/ned.git
+	branch = main

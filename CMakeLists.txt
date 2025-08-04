@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.16)
 project(ImGuiDemo)
 
 # Set NED path - can be customized for different setups
-set(NED_PATH "./ned" CACHE PATH "Path to the NED project")
+set(NED_PATH "ned" CACHE PATH "Path to the NED project")
 
 # Add NED as subdirectory
 add_subdirectory(${NED_PATH} ned)
@@ -26,9 +26,8 @@ add_executable(ImGuiDemo main.cpp ${IMGUI_SOURCES})
 target_compile_definitions(ImGuiDemo PRIVATE IMGUI_USER_CONFIG="${CMAKE_CURRENT_SOURCE_DIR}/${NED_PATH}/ned_imgui_config.h")
 
 # Add FreeType include directories for ImGui
-target_include_directories(ImGuiDemo PRIVATE
-    $<TARGET_PROPERTY:Freetype::Freetype,INTERFACE_INCLUDE_DIRECTORIES>
-)
+# Note: FreeType is found but not as a CMake target, so we don't need to add include dirs
+# The freetype headers are typically in standard system paths
 
 # Link with NED
 target_link_libraries(ImGuiDemo ned_embed)
