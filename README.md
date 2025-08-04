@@ -12,7 +12,7 @@ A demonstration of embedding the NED text editor into an ImGui application. This
 - Multi-cursor editing
 
 
-[Watch Demo Video](https://vimeo.com/1107228275)
+[![Watch Demo](https://img.youtube.com/vi/SC9MA95FRvM/maxresdefault.jpg)](https://youtu.be/SC9MA95FRvM)
 
 ### System Requirements
 - CMake (version 3.16 or higher)
