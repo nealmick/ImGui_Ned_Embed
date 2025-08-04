@@ -11,7 +11,8 @@ A demonstration of embedding the NED text editor into an ImGui application. This
 - Terminal emulator
 - Multi-cursor editing
 
-## Prerequisites
+
+[Watch Demo Video](https://vimeo.com/1107228275)
 
 ### System Requirements
 - CMake (version 3.16 or higher)
