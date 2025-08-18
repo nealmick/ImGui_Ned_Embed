@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.16)
 project(ImGuiDemo)
 
 # Set NED path - can be customized for different setups
+# "ned" for submodule "../ned" for parrent directory
 set(NED_PATH "ned" CACHE PATH "Path to the NED project")
 
 # Speed up build by disabling non-essential features for demo
