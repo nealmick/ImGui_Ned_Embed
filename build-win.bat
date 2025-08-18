@@ -10,17 +10,6 @@ if not exist "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\To
     exit /b 0
 )
 
-REM Setup Visual Studio Developer environment (equivalent to setup-msbuild action)
-if exist "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\Tools\VsDevCmd.bat" (
-    echo Setting up Visual Studio environment...
-    call "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\Tools\VsDevCmd.bat" -arch=x64
-) else (
-    echo VsDevCmd.bat not found. Visual Studio may not be fully installed.
-    echo Please install Visual Studio Community 2022 with C++ Desktop Development workload.
-    pause
-    exit /b 1
-)
-
 REM Set up environment variables
 set VCPKG_ROOT=%CD%\vcpkg
 set VCPKG_TOOLCHAIN_FILE=%VCPKG_ROOT%\scripts\buildsystems\vcpkg.cmake
@@ -62,6 +51,17 @@ if not exist build (
 )
 
 cd build
+
+REM Setup Visual Studio Developer environment (equivalent to setup-msbuild action)
+if exist "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\Tools\VsDevCmd.bat" (
+    echo Setting up Visual Studio environment...
+    call "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\Tools\VsDevCmd.bat" -arch=x64
+) else (
+    echo VsDevCmd.bat not found. Visual Studio may not be fully installed.
+    echo Please install Visual Studio Community 2022 with C++ Desktop Development workload.
+    pause
+    exit /b 1
+)
 
 REM Configure with CMake using vcpkg toolchain
 echo Configuring with CMake...
