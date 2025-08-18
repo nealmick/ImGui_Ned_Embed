@@ -86,6 +86,7 @@ For Windows users run the automated build script using powershell:
 ```bash
 ./build-win.bat
 # This may take 10-20 minutes as it requires Visual Studio
+# Make sure you restart powershell when prompted
 ```
 
 ### 5. Run the Demo
