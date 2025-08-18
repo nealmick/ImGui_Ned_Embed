@@ -79,6 +79,24 @@ git commit -m "Update ned submodule to latest commit"
 
 ### 4. Build the Project
 
+#### Windows
+For Windows users, simply run the automated build script:
+
+```batch
+build-win.bat
+```
+
+This will automatically:
+- Install vcpkg package manager (if not present)
+- Install all required dependencies (GLFW, GLEW, FreeType, CURL, etc.)
+- Configure the project with CMake
+- Build the NED library and all its dependencies
+- Compile the ImGui demo application
+- Launch the `ImGuiDemo.exe` automatically
+
+**Note**: No additional setup required on Windows - the script handles everything!
+
+#### macOS/Linux
 Run the build script:
 
 ```bash
@@ -93,6 +111,15 @@ This will:
 
 ### 5. Run the Demo
 
+#### Windows
+The demo launches automatically after building with `build-win.bat`. To run it manually:
+
+```batch
+cd build/Release
+ImGuiDemo.exe
+```
+
+#### macOS/Linux
 ```bash
 ./ImGuiDemo
 ```
