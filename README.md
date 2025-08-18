@@ -39,6 +39,9 @@ brew install clang-format cmake llvm glfw glew pkg-config curl freetype
 sudo apt install cmake libglfw3-dev libglew-dev libgtk-3-dev pkg-config build-essential libcurl4-openssl-dev clang-format mesa-utils libfreetype6-dev
 ```
 
+#### Windows
+The dependencies are managed by the build script
+
 ## Getting Started
 
 ### 1. Clone the Repository
@@ -46,53 +49,57 @@ sudo apt install cmake libglfw3-dev libglew-dev libgtk-3-dev pkg-config build-es
 Clone this repository with all submodules:
 
 ```bash
-git clone --recursive https://github.com/your-username/ImGui_Ned_Embed.git
+git clone --recursive https://github.com/nealmick/ImGui_Ned_Embed.git
 cd ImGui_Ned_Embed
 ```
+**Important**: This project uses submodules for both ImGui and NED. Make sure to clone the repo them recursively.
 
 ### 2. Initialize Submodules
-
-**Important**: This project uses submodules for both ImGui and NED. Make sure to initialize them recursively:
 
 ```bash
 # Initialize all submodules
 git submodule init
-git submodule update --init --recursive
+
 ```
 
-**Note**: The `--recursive` flag is crucial because NED itself has its own submodules (tree-sitter parsers, etc.) that need to be initialized.
-
-### 3. Update NED to Latest Version (Recommended)
+### 3. Update NED to Latest Version
 
 The NED submodule is configured to track the `main` branch. To get the latest features and bug fixes:
 
 ```bash
 # Update NED submodule to latest commit on main branch
 git submodule update --remote ned
-
-# Commit the updated submodule reference
-git add ned
-git commit -m "Update ned submodule to latest commit"
 ```
 
-**Note**: This step is optional but recommended to get the latest NED features and improvements.
 
 ### 4. Build the Project
 
+#### macOS/Linux
 Run the build script:
-
 ```bash
 ./build.sh
 ```
 
-This will:
-- Configure the project with CMake
-- Build the NED library and all its dependencies
-- Compile the ImGui demo application
-- Create the `ImGuiDemo` executable
+#### Windows
+For Windows users run the automated build script using powershell:
+
+```bash
+./build-win.bat
+# This may take 10-20 minutes as it requires Visual Studio
+# Make sure you restart powershell when prompted
+```
 
 ### 5. Run the Demo
 
+#### Windows
+The demo launches automatically after building with `build-win.bat`. To run it manually:
+
+```bash
+cd build/Release
+ImGuiDemo.exe
+```
+
+#### macOS/Linux
 ```bash
 ./ImGuiDemo
 ```
@@ -106,6 +113,7 @@ ImGui_Ned_Embed/
 ├── main.cpp            # Main application entry point
 ├── CMakeLists.txt      # Build configuration
 ├── build.sh            # Build script
+├── build-win.bat       # Build script
 ```
 
 ## Submodules

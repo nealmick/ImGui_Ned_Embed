@@ -48,4 +48,9 @@ Makefile
 
 # Temporary files
 *.tmp
-*.temp 
+*.temp
+
+# vcpkg package manager
+vcpkg/
+vcpkg_installed/
+vcpkg.json 
