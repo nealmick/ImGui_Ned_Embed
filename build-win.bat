@@ -10,7 +10,18 @@ if not exist "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\To
     exit /b 0
 )
 
-REM Set up environment variables
+REM Setup Visual Studio Developer environment (equivalent to setup-msbuild action)
+if exist "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\Tools\VsDevCmd.bat" (
+    echo Setting up Visual Studio environment...
+    call "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\Tools\VsDevCmd.bat" -arch=x64
+) else (
+    echo VsDevCmd.bat not found. Visual Studio may not be fully installed.
+    echo Please install Visual Studio Community 2022 with "Desktop development with C++" workload manually.
+    pause
+    exit /b 1
+)
+
+REM Everything below is identical to build-win-ci.bat
 set VCPKG_ROOT=%CD%\vcpkg
 set VCPKG_TOOLCHAIN_FILE=%VCPKG_ROOT%\scripts\buildsystems\vcpkg.cmake
 
@@ -34,9 +45,6 @@ if not exist "%VCPKG_ROOT%" (
     echo vcpkg already exists, skipping installation
 )
 
-REM Copy vcpkg.json from ned submodule to root for dependencies
-copy "ned\vcpkg.json" "vcpkg.json" >nul 2>&1
-
 REM Install dependencies via vcpkg
 echo Installing dependencies via vcpkg...
 %VCPKG_ROOT%\vcpkg.exe install --triplet x64-windows
@@ -52,17 +60,6 @@ if not exist build (
 
 cd build
 
-REM Setup Visual Studio Developer environment (equivalent to setup-msbuild action)
-if exist "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\Tools\VsDevCmd.bat" (
-    echo Setting up Visual Studio environment...
-    call "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\Tools\VsDevCmd.bat" -arch=x64
-) else (
-    echo VsDevCmd.bat not found. Visual Studio may not be fully installed.
-    echo Please install Visual Studio Community 2022 with C++ Desktop Development workload.
-    pause
-    exit /b 1
-)
-
 REM Configure with CMake using vcpkg toolchain
 echo Configuring with CMake...
 cmake .. -G "Visual Studio 17 2022" -A x64 -DCMAKE_TOOLCHAIN_FILE="%VCPKG_TOOLCHAIN_FILE%" -DVCPKG_TARGET_TRIPLET=x64-windows
@@ -70,6 +67,7 @@ cmake .. -G "Visual Studio 17 2022" -A x64 -DCMAKE_TOOLCHAIN_FILE="%VCPKG_TOOLCH
 REM Check if configuration succeeded
 if %errorlevel% neq 0 (
     echo CMake configuration failed!
+    pause
     exit /b 1
 )
 
