@@ -86,8 +86,8 @@ int main() {
     // Configure NED embed options
     NedEmbedOptions options;
     options.textureManager = &customTextureManager;
-    options.showWelcome = false;  
-    
+    // Option to bypass native file dialog project picker, and set project here.
+    options.projectPath = "/Users/neal/dev/ned";
     // Create NED editor with custom options
     NedEmbed nedEditor(options);
 
