@@ -3,7 +3,7 @@ project(ImGuiDemo)
 
 # Set NED path - can be customized for different setups
 # "ned" for submodule "../ned" for parrent directory
-set(NED_PATH "ned" CACHE PATH "Path to the NED project")
+set(NED_PATH "../ned" CACHE PATH "Path to the NED project")
 
 # Speed up build by disabling non-essential features for demo
 set(BUILD_SHARED_LIBS OFF CACHE BOOL "Build static libs for faster linking")
@@ -40,8 +40,11 @@ target_include_directories(ImGuiDemo PRIVATE
     ${CMAKE_CURRENT_SOURCE_DIR}/imgui/backends
 )
 
+# Find GLEW for the custom texture manager example
+find_package(GLEW REQUIRED)
+
 # Link with NED
-target_link_libraries(ImGuiDemo ned_embed)
+target_link_libraries(ImGuiDemo ned_embed GLEW::GLEW)
 
 # Add Windows-specific libraries for ned_embed
 if(WIN32)
